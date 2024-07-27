@@ -46,4 +46,13 @@ export const CV_DATA = {
       icon: <LinkIcon width={iconSize} />,
     },
   ],
+  about: {
+    title: "About",
+    text: `Frontend alanında kendimi geliştirmekteyim ve ilerleyen süreçte kariyerime bu alanda yön vermeyi hedefliyorum.
+    Birçok web projesi geliştirdim ve geliştirdiğim tüm projelerin tasarımlarını kendim kodladım. Projelerimde Backend
+    olarak PHP PDO kullandım.
+    <br/><br/>
+    Kendime ait web siteleri oluşturdum ve pasif gelir sağlayabilecek sistemler yazdım. Kariyerim içerisinde, web
+    alanında geliştirilen ve büyük bir kitleye hitap eden bir yazılımın içerisinde yer almayı hedefliyorum.`,
+  },
 };
