@@ -3,7 +3,7 @@ import { string } from "prop-types";
 function FlexTitle({ text, rightText, link }) {
   return (
     <div className="flex gap-1 justify-between items-center">
-      {link ? (
+      {link !== null ? (
         <h3 className="w-max text-base font-semibold leading-none hover:underline underline-offset-2">
           <a target="_blank" href={link}>
             {text}

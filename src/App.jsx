@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Experiences from "./components/Experiences";
 import Profile from "./components/Profile";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
           <Profile />
         </section>
         <About />
+        <Experiences />
       </section>
     </main>
   );
