@@ -1,3 +1,4 @@
+import { Button, Link } from "@nextui-org/react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Educations from "./components/Educations";
@@ -5,6 +6,7 @@ import Experiences from "./components/Experiences";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import CV_PDF from "./assets/Yasin_Akbulut_CV.pdf";
 
 function App() {
   return (
@@ -20,6 +22,15 @@ function App() {
         <Skills />
         <Educations />
       </section>
+      <Button
+        className="fixed right-6 bottom-6 z-10 bg-black w-max text-gray-100 print:hidden"
+        as={Link}
+        href={CV_PDF}
+        isExternal
+        download
+      >
+        Download CV
+      </Button>
     </main>
   );
 }
