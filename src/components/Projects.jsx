@@ -7,7 +7,10 @@ import Chip from "./Chip";
 
 function Projects() {
   const { projects } = CV_DATA;
-
+  const footerText = `
+    For more projects, you can visit my personal portfolio: 
+    <a class='hover:underline' href='https://yasinakbulut.dev' target='_blank'>yasinakbulut.dev</a>
+  `;
   return (
     <Section>
       <Title text={projects.title} />
@@ -29,6 +32,7 @@ function Projects() {
           );
         })}
       </div>
+      <Text text={footerText} size="xs" />
     </Section>
   );
 }

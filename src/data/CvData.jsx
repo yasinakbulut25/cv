@@ -56,7 +56,7 @@ export const CV_DATA = {
     In my career, I aim to be involved in a software developed in the web field that appeals to a large audience.`,
   },
   experiences: {
-    title: "Experiences",
+    title: "Work Experiences",
     data: [
       {
         job: "Junior UI Developer",
@@ -242,4 +242,15 @@ export const CV_DATA = {
       "PhpMyAdmin",
     ],
   },
+  educations: {
+    title: 'Education',
+    data: [
+      {
+        title: 'Bilecik Şeyh Edebali University',
+        desc: "Bachelor's Degree in Computer Engineering.",
+        startDate: '2018',
+        endDate: '2023',
+      }
+    ]
+  }
 };
