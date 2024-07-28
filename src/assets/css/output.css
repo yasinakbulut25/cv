@@ -1362,6 +1362,10 @@ video {
   flex-grow: 1;
 }
 
+.grow{
+  flex-grow: 1;
+}
+
 .basis-0{
   flex-basis: 0px;
 }

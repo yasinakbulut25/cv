@@ -48,12 +48,14 @@ export const CV_DATA = {
   ],
   about: {
     title: "About",
-    text: `I'm developing myself in the field of frontend and I aim to direct my career in this field in the future. 
-    I have developed many web projects and I have coded the designs of all the projects I have developed myself. 
-    I used PHP PDO as backend in my projects.
-    <br/> <br/>
-    I have created my own websites and written systems that can generate passive income. 
-    In my career, I aim to be involved in a software developed in the web field that appeals to a large audience.`,
+    text: `
+      I'm a developer working to specialize in the frontend field with experience in UI development.
+      I'm involved in projects that improve user experience and develop new features at Jotform.
+      <br/> <br/>
+      I have created my own websites and developed systems that generate passive income.
+      My problem-solving skills and project management abilities allow me to contribute effectively to team projects.
+      I aim to develop software that reaches a wide audience and gain more experience in this field.
+    `,
   },
   experiences: {
     title: "Work Experiences",
@@ -61,9 +63,8 @@ export const CV_DATA = {
       {
         job: "Junior UI Developer",
         jobDesc: `
-        I work as a Jr. UI Developer in the Product team at Jotform, a company with over 20 million users. Our primary focus is to ensure seamless user experiences and continually improve our products. We work as a team focused on improving existing features and constantly improving the user experience by adding new features.
-        <br/><br/>
-        I also worked as a Junior UI Developer in the Localization Growth team, which is a large Growth team. I worked on the development and improvement of our company's international web pages, such as German and Spanish. Our main goal was to contribute to the growth of the company by increasing the international user base.`,
+        I work on the Product team. Our main focus is to ensure smooth user experiences and continuously improve our products by enhancing existing features and adding new ones.
+        I also worked on the Growth team. I develop and improve our international web pages.`,
         company: "Jotform",
         companyLink: "https://jotform.com/",
         startDate: "21.08.2023",
@@ -81,7 +82,7 @@ export const CV_DATA = {
       {
         job: "UI Developer (Part Time)",
         jobDesc:
-          "After successfully completing an internship, I joined Jotform as a part-time UI Developer. Utilizing HTML, CSS, JavaScript, and React, I actively participated in identifying and resolving issues within Jotform products, thereby contributing to the continuous improvement of user experience.",
+          "Using HTML, CSS, JavaScript, and React, I helped identify and fix issues in Jotform products, improving the user experience.",
         company: "Jotform",
         companyLink: "https://jotform.com/",
         startDate: "01.11.2022",
@@ -91,7 +92,7 @@ export const CV_DATA = {
       {
         job: "UI Developer Intern",
         jobDesc:
-          "I developed various web projects using HTML, CSS, JavaScript, and React technologies. My internship provided a significant opportunity for both personal and career growth. During this period, I not only enhanced my coding skills but also developed proficiency in project management, problem-solving, and communication.",
+          "I developed several web projects using HTML, CSS, JavaScript, and React.",
         company: "Jotform",
         companyLink: "https://jotform.com/",
         startDate: "01.08.2022",
@@ -101,7 +102,7 @@ export const CV_DATA = {
       {
         job: "Web Developer (voluntary)",
         jobDesc:
-          "During my voluntary internship, I created corporate websites using WordPress and implemented various CSS modifications to enhance the theme.",
+          "During my voluntary internship, I created corporate websites using WordPress and made CSS modifications to improve the themes.",
         company: "Gali Medya",
         companyLink: "https://www.galimedya.com/",
         startDate: "02.08.2021",
@@ -111,7 +112,7 @@ export const CV_DATA = {
       {
         job: "Freelance Full Stack Developer",
         jobDesc:
-          "As a freelancer, I have developed numerous corporate websites using HTML, CSS, JavaScript, PHP, and MySQL, generating income from these projects. Throughout this process, I honed my technical skills by crafting customized solutions tailored to meet the unique needs of clients. Simultaneously, I enhanced my project management and communication skills, gaining valuable experience in establishing successful business relationships.",
+          "As a freelancer, I developed many corporate websites using HTML, CSS, JavaScript, PHP, and MySQL, generating income from these projects. I improved my project management and communication skills, gaining valuable experience in building successful business relationships.",
         company: "Freelancer",
         startDate: "Since university",
         endDate: "Still",
@@ -132,45 +133,39 @@ export const CV_DATA = {
     data: [
       {
         title: "Personal Portfolio",
-        desc: "You can review all my experiences, projects, works, and skills through the website that I have personally developed for myself.",
+        desc: "You can review all my experiences, projects, works, and skills on the website I developed for myself.",
         linkText: "yasinakbulut.dev",
         linkUrl: "https://yasinakbulut.dev",
         technologies: ["React", "HTML", "CSS", "JavaScript", "PHP", "MySql"],
       },
       {
         title: "Customer Tracking System",
-        desc: "A system with many features such as allowing dietitians to manage their customers more easily and quickly, writing diets, and graphic analysis.",
+        desc: "A system with many features that allow dietitians to manage their customers more easily and quickly, write diets, and perform graphic analysis.",
         linkText: "diyettakibim.com",
         linkUrl: "https://diyettakibim.com",
-        technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql", "Shopier"],
+        technologies: [
+          "Sertifica: ICONDATA'22",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySql",
+          "Shopier",
+        ],
       },
       {
         title: "CV Creation and Customization",
-        desc: "CV creation system that offers easy CV creation and many customization options such as template, color, font, language and theme.",
+        desc: "A CV creation system that offers many customization options such as templates, colors, fonts, languages, and themes.",
         linkText: "cv.yasinakbulut.dev",
         linkUrl: "https://cv.yasinakbulut.dev",
-        technologies: [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "PHP",
-          "MySql",
-          "Bootstrap",
-        ],
+        technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
       },
       {
         title: "Business Directory Site",
-        desc: "A Business Directory website for Esnaf Vitrinim, which hosts 250+ companies in 140+ categories, for which I have done fullstack coding.",
+        desc: "A website hosting 250+ business in 140+ categories, for which I did full stack coding.",
         linkText: "esnafvitrinim.com",
         linkUrl: "https://esnafvitrinim.com",
-        technologies: [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "PHP",
-          "MySql",
-          "Bootstrap",
-        ],
+        technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
       },
       {
         title: "Software Developers Community",
@@ -188,7 +183,7 @@ export const CV_DATA = {
       },
       {
         title: "Consulting Site With Virtual Pos",
-        desc: "Consulting Site With sanal pos is a dynamic consultancy website that provides consultancy services such as E-Commerce, Social Media, Google ads, marketplaces, dropshopping, and can get paid by selling packages using the iyzico infrastructure.",
+        desc: "A website offering services in E-Commerce, Social Media, and dropshipping. It uses iyzico infrastructure to sell packages and receive payments.",
         linkText: "danismanlik.yasinakbulut.dev",
         linkUrl: "https://danismanlik.yasinakbulut.dev",
         technologies: [
@@ -203,21 +198,14 @@ export const CV_DATA = {
       },
       {
         title: "Personal Portfolio for Dietitian",
-        desc: "A personal website specially designed and developed for Dietitian Gizem Akbulut, who provides online diet services.",
+        desc: "A personal website specially designed and developed for a dietitian, who provides online diet services.",
         linkText: "diyetisyengizemakbulut.com",
         linkUrl: "https://diyetisyengizemakbulut.com/",
-        technologies: [
-          "HTML",
-          "PHP",
-          "MySql",
-          "CSS",
-          "JavaScript",
-          "Bootstrap",
-        ],
+        technologies: ["HTML", "PHP", "MySql", "CSS", "JavaScript"],
       },
       {
         title: "Calendar App",
-        desc: "This project is a dynamic calendar application developed using React. With this application, users can take notes on specific dates, edit notes, and customize them as per their preferences.",
+        desc: "A dynamic calendar app developed with React, allowing users to take, edit, and customize notes on specific dates.",
         linkText: "calendar.yasinakbulut.dev",
         linkUrl: "https://calendar.yasinakbulut.dev/",
         technologies: ["React", "HTML", "CSS"],
@@ -243,14 +231,14 @@ export const CV_DATA = {
     ],
   },
   educations: {
-    title: 'Education',
+    title: "Education",
     data: [
       {
-        title: 'Bilecik Şeyh Edebali University',
+        title: "Bilecik Şeyh Edebali University",
         desc: "Bachelor's Degree in Computer Engineering.",
-        startDate: '2018',
-        endDate: '2023',
-      }
-    ]
-  }
+        startDate: "2018",
+        endDate: "2023",
+      },
+    ],
+  },
 };
