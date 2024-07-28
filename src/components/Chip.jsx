@@ -1,8 +1,10 @@
 import { string } from "prop-types";
 
-function Chip({ text }) {
+function Chip({ text, size }) {
   return (
-    <span className="text-[10px] py-1 px-2 bg-gray-100 text-gray-600 rounded w-max">
+    <span
+      className={`text-${size} py-1 px-2 bg-gray-100 text-gray-600 rounded w-max`}
+    >
       {text}
     </span>
   );
@@ -10,10 +12,12 @@ function Chip({ text }) {
 
 Chip.propTypes = {
   text: string,
+  size: string,
 };
 
 Chip.defaultProps = {
   text: "",
+  size: "[10px]",
 };
 
 export default Chip;

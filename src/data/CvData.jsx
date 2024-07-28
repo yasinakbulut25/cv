@@ -224,4 +224,22 @@ export const CV_DATA = {
       },
     ],
   },
+  skills: {
+    title: "Skills",
+    data: [
+      "React",
+      "Redux / Context",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "Styled Components",
+      "TailwindCSS",
+      "Figma for dev",
+      "GitHub",
+      "PHP (PDO)",
+      "MySql",
+      "PhpMyAdmin",
+    ],
+  },
 };
