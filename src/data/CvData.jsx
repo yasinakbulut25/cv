@@ -112,7 +112,7 @@ export const CV_DATA = {
       {
         job: "Freelance Full Stack Developer",
         jobDesc:
-          "As a freelancer, I developed many corporate websites using HTML, CSS, JavaScript, PHP, and MySQL, generating income from these projects. I improved my project management and communication skills, gaining valuable experience in building successful business relationships.",
+          "I developed many corporate websites using HTML, CSS, JavaScript, PHP, and MySQL, generating income from these projects. I improved my project management and communication skills.",
         company: "Freelancer",
         startDate: "Since university",
         endDate: "Still",
@@ -223,6 +223,7 @@ export const CV_DATA = {
       "SCSS",
       "Styled Components",
       "TailwindCSS",
+      "Bootstrap",
       "Figma for dev",
       "GitHub",
       "PHP (PDO)",

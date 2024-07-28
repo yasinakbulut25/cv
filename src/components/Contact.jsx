@@ -5,13 +5,13 @@ function Contact() {
   const { name, jobDetail, contact } = CV_DATA;
   return (
     <div className="flex-1 space-y-2">
-      <h1 className="text-2xl font-bold tracking-wider">{name}</h1>
+      <h1 className="text-3xl font-bold tracking-wide">{name}</h1>
 
       <p className="max-w-md text-pretty font-mono text-md text-muted-foreground print:text-[12px] text-gray-500">
         {jobDetail}
       </p>
 
-      <div className="w-full grid grid-cols-2 gap-2 font-mono">
+      <div className="w-full grid sm:grid-cols-2 grid-cols-1 gap-2 font-mono">
         {contact.map((item, index) => {
           return (
             <Button

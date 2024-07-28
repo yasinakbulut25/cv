@@ -12,7 +12,7 @@ function Projects() {
     <a class='hover:underline' href='https://yasinakbulut.dev' target='_blank'>yasinakbulut.dev</a>
   `;
   return (
-    <Section>
+    <Section className="print-force-new-page print:pt-16">
       <Title text={projects.title} />
       <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
         {projects.data.map((item, index) => {

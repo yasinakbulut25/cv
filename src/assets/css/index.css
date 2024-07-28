@@ -4,8 +4,9 @@
 @tailwind utilities;
 
 body {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "slnt" 0;
+  font-family: "Inter", sans-serif;
+}
+
+.print-force-new-page {
+  page-break-before: always;
 }
