@@ -2,6 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import Profile from "./components/Profile";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </section>
         <About />
         <Experiences />
+        <Projects />
       </section>
     </main>
   );

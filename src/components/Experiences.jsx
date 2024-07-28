@@ -12,19 +12,19 @@ function Experiences() {
     <Section>
       <Title text={experiences.title} />
       <div className="flex flex-col gap-4">
-        {experiences.data.map((exp, index) => {
-          const rightContent = `${exp.startDate} - ${exp.endDate}`;
+        {experiences.data.map((item, index) => {
+          const rightContent = `${item.startDate} - ${item.endDate}`;
           return (
             <div key={index} className="flex flex-col gap-2">
               <FlexTitle
-                text={exp.company}
-                link={exp.companyLink}
+                text={item.company}
+                link={item.companyLink}
                 rightText={rightContent}
               />
-              <SubTitle text={exp.job} />
-              <Text text={exp.jobDesc} size="xs" />
+              <SubTitle text={item.job} />
+              <Text text={item.jobDesc} size="xs" />
               <div className="flex flex-wrap gap-2">
-                {exp.technologies.map((tech, index) => (
+                {item.technologies.map((tech, index) => (
                   <Chip key={index} text={tech} />
                 ))}
               </div>
