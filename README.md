@@ -1,9 +1,10 @@
-![Opera Snapshot_2024-07-29_233924_me yasinakbulut dev](https://github.com/user-attachments/assets/df9c6ca0-990b-4208-b1da-836831c0de39)
-
 # My Personal CV
 
 This repository contains the source code for my personal CV. It showcases my skills, experiences, and projects in a clean and professional format.
 Built with React and TailwindCSS.
+
+## Preview 
+![Opera Snapshot_2024-07-29_233924_me yasinakbulut dev](https://github.com/user-attachments/assets/df9c6ca0-990b-4208-b1da-836831c0de39)
 
 ## Installation and Setup
 
