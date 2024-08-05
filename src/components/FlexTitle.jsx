@@ -1,12 +1,14 @@
 import { string } from "prop-types";
+import { ExternalLink } from "./icons";
 
 function FlexTitle({ text, rightText, link }) {
   return (
     <div className="flex gap-1 justify-between items-center">
       {link !== null ? (
         <h3 className="w-max text-base font-semibold leading-none hover:underline underline-offset-2">
-          <a target="_blank" href={link}>
+          <a target="_blank" href={link} className="flex items-center gap-1">
             {text}
+            <ExternalLink className="w-3 text-gray-400 print:hidden" />
           </a>
         </h3>
       ) : (

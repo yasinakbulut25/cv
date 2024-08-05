@@ -133,7 +133,11 @@ export const CV_DATA = {
     data: [
       {
         title: "Personal Portfolio",
-        desc: "You can review all my experiences, projects, works, and skills on the website I developed for myself.",
+        desc: `
+          You can review all my experiences, projects, works, and skills.
+          <br/><br/>
+          New version: <a href='https://v2.yasinakbulut.dev' target='_blank'>v2.yasinakbulut.dev</a>
+        `,
         linkText: "yasinakbulut.dev",
         linkUrl: "https://yasinakbulut.dev",
         technologies: ["React", "HTML", "CSS", "JavaScript", "PHP", "MySql"],
