@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*
 ! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
@@ -2574,6 +2574,10 @@ video {
   font-size: 0.6rem;
 }
 
+.text-\[10px\]{
+  font-size: 10px;
+}
+
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2619,10 +2623,6 @@ video {
   line-height: 1rem;
 }
 
-.text-\[10px\]{
-  font-size: 10px;
-}
-
 .font-bold{
   font-weight: 700;
 }
@@ -2650,6 +2650,10 @@ video {
 
 .leading-none{
   line-height: 1;
+}
+
+.tracking-normal{
+  letter-spacing: 0em;
 }
 
 .tracking-wide{
@@ -2743,9 +2747,9 @@ video {
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
-.text-gray-300{
+.text-gray-400{
   --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-gray-500{
@@ -2851,11 +2855,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-400{
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -3620,8 +3619,8 @@ video {
           mask-image: linear-gradient(#000,#000,transparent 0,#000 var(--scroll-shadow-size),#000 calc(100% - var(--scroll-shadow-size)),transparent);
 }
 
-body {
-  font-family: "Inter", sans-serif;
+body, .font-mono {
+  font-family: "Montserrat", sans-serif;
 }
 
 .print-force-new-page {
