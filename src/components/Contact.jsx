@@ -7,7 +7,7 @@ function Contact() {
     <div className="flex-1 space-y-2">
       <h1 className="text-3xl font-bold tracking-wide">{name}</h1>
 
-      <p className="max-w-md text-pretty font-mono text-md text-muted-foreground print:text-[12px] text-gray-500">
+      <p className="max-w-md text-pretty font-mono text-md text-muted-foreground print:text-[12px] text-gray-500 print:text-gray-700">
         {jobDetail}
       </p>
 
@@ -15,7 +15,7 @@ function Contact() {
         {contact.map((item, index) => {
           return (
             <Button
-              className="w-max p-0 overflow-visible min-w-max h-auto text-xs text-gray-500 underline-offset-2 data-[hover=true]:text-black data-[hover=true]:underline data-[hover=true]:bg-transparent data-[hover=true]:opacity-100"
+              className="w-max p-0 overflow-visible min-w-max h-auto text-xs text-gray-500 print:text-gray-700 underline-offset-2 data-[hover=true]:text-black data-[hover=true]:underline data-[hover=true]:bg-transparent data-[hover=true]:opacity-100"
               as={Link}
               variant="light"
               key={index}

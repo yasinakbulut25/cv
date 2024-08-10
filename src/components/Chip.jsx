@@ -3,7 +3,7 @@ import { string } from "prop-types";
 function Chip({ text, size }) {
   return (
     <span
-      className={`text-${size} py-1 px-2 bg-gray-100 text-gray-600 rounded w-max`}
+      className={`text-${size} py-1 px-2 bg-gray-100 text--600 rounded w-max`}
     >
       {text}
     </span>
