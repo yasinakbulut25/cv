@@ -27,9 +27,8 @@ function App() {
         as={Link}
         href={CV_PDF}
         isExternal
-        download
       >
-        Download CV
+        View CV
       </Button>
     </main>
   );
