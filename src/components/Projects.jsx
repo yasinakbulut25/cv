@@ -10,6 +10,7 @@ function Projects() {
   const footerText = `
     For more projects, you can visit my personal portfolio: 
     <a class='hover:underline' href='https://yasinakbulut.dev' target='_blank'>yasinakbulut.dev</a>
+    or <a class='hover:underline' href='https://v2.yasinakbulut.dev' target='_blank'>v2.yasinakbulut.dev</a>
   `;
   return (
     <Section className="print-force-new-page print:pt-16">

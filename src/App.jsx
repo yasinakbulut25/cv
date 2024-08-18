@@ -6,7 +6,7 @@ import Experiences from "./components/Experiences";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import CV_PDF from "./assets/Yasin_Akbulut_CV.pdf";
+import CV_PDF from "../public/Yasin_Akbulut_CV.pdf";
 
 function App() {
   return (

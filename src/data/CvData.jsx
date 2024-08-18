@@ -1,4 +1,4 @@
-import ProfileImg from "../assets/profile.png";
+import ProfileImg from "../../public/profile.png";
 import {
   LocationIcon,
   EmailIcon,
