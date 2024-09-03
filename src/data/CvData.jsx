@@ -49,12 +49,14 @@ export const CV_DATA = {
   about: {
     title: "About",
     text: `
-      I'm a developer working to specialize in the frontend field with experience in UI development.
-      I'm involved in projects that improve user experience and develop new features at Jotform.
+      I'm currently working as a Jr. UI Developer in the Product team @Jotform, a company with over 25 million users.
+      Our primary focus is to ensure seamless user experiences and continually improve our products.
       <br/> <br/>
-      I have created my own websites and developed systems that generate passive income.
-      My problem-solving skills and project management abilities allow me to contribute effectively to team projects.
-      I aim to develop software that reaches a wide audience and gain more experience in this field.
+      I'm constantly improving myself in the frontend field and aim to shape my career in this field in the future.
+      To date, I have developed many web projects and designed and coded them myself.
+      <br/> <br/>
+      I have also developed systems that can generate passive income by creating my own websites.
+      I aim to develop large-scale web software that appeals to large audiences in the future.
     `,
   },
   experiences: {
