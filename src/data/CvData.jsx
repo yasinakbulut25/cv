@@ -51,8 +51,8 @@ export const CV_DATA = {
     text: `
     I worked as a UI Developer at Jotform, a platform serving over 25 million users. 
     Within the Product team, I contributed to the development and deployment of key features such as Push Notification, 
-    Copilot, and User Management for the No Code App Builder. I was also involved in the Jotform AI Agents product, 
-    where I created dynamic email templates.
+    Copilot, and User Management for the No Code App Builder, working within a monorepo architecture shared across multiple teams. 
+    I was also involved in the Jotform AI Agents product, where I created dynamic email templates.
     <br/> <br/>
     I collaborated cross-functionally with designers to deliver intuitive, scalable, and maintainable frontend 
     interfaces using React, Redux, Styled Components, and SCSS.
@@ -70,8 +70,8 @@ export const CV_DATA = {
       {
         job: "UI Developer",
         jobDesc: `
-        Worked within the Product team to improve user experience by refining existing features 
-        and contributing to new functionalities across Jotform’s core platforms.
+        Worked within the Product team to improve user experience by refining features and contributing to new 
+        functionalities in Jotform’s core platforms, using a Remote Development System (RDS).
         <br/>
         Participated in the development of international landing pages as part of the Growth team, 
         focusing on optimization and localization for global users.
@@ -89,6 +89,8 @@ export const CV_DATA = {
           "Styled Components",
           "Figma for dev",
           "Git / GitHub",
+          "Monorepo",
+          "RDS",
           "Slack",
           "Notion",
         ],
@@ -291,6 +293,8 @@ export const CV_DATA = {
         title: "Tools & Deployment",
         items: [
           "Git / GitHub",
+          "Monorepo",
+          "RDS",
           "ESLint",
           "Figma for dev",
           "Notion",
@@ -306,6 +310,13 @@ export const CV_DATA = {
           "Agile / Scrum Methodology",
           "Problem Solving",
           "Team Collaboration"
+        ]
+      },
+      {
+        title: "Currently Learning",
+        items: [
+          "TypeScript",
+          "Vue.js",
         ]
       }
     ]
