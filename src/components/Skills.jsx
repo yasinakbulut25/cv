@@ -9,9 +9,19 @@ function Skills() {
   return (
     <Section>
       <Title text={skills.title} />
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap flex-col gap-4" style={{ marginLeft: "24px" }}>
         {skills.data.map((item, index) => {
-          return <Chip key={index} text={item} size='xs' />;
+          const { title, items } = item;
+          return (
+            <div key={index} className="flex items-baseline gap-1">
+              <h2 className="text-sm font-bold min-w-max">{title}:</h2>
+              <div className="flex gap-1 items-center flex-wrap">
+                {items.map((skill, i) => (
+                  <Chip key={i} text={skill} size='xs' />
+                ))}
+              </div>
+            </div>
+          );
         })}
       </div>
     </Section>
