@@ -49,19 +49,20 @@ export const CV_DATA = {
   about: {
     title: "About",
     text: `
-    I worked as a UI Developer at Jotform, a platform serving over 25 million users. 
-    Within the Product team, I contributed to the development and deployment of key features such as Push Notification, 
-    Copilot, and User Management for the No Code App Builder, working within a monorepo architecture shared across multiple teams. 
-    I was also involved in the Jotform AI Agents product, where I created dynamic email templates.
+    Frontend Developer with experience in building <b>scalable</b> and <b>maintainable</b> user interfaces using technologies 
+    such as <b>React, Next.js, Redux, Saga,</b> and <b>Styled Components</b>. Skilled in translating <b>design systems</b> into clean, 
+    intuitive interfaces and delivering consistent user experiences across platforms.
     <br/> <br/>
-    I collaborated cross-functionally with designers to deliver intuitive, scalable, and maintainable frontend 
-    interfaces using React, Redux, Styled Components, and SCSS.
+    At Jotform, a platform serving over 25 million users, I worked as part of the <b>Product team</b>, contributing to key 
+    features like <b>Push Notification, Copilot,</b> and <b>User Management</b> for the <b>No Code App Builder</b>, within a 
+    <b>monorepo architecture</b> shared across teams. I also took part in the development of Jotform AI Agents, 
+    creating dynamic email templates.
     <br/> <br/>
-    Outside of my professional role, I built and deployed personal web projects that generate passive income 
-    and strengthened my skills in end-to-end, scalable web development.
+    Outside of my professional role, I built and deployed personal web projects that generate passive income and 
+    strengthened my skills in end-to-end, scalable web development.
     <br/> <br/>
-    I am currently seeking new opportunities to apply my frontend expertise, 
-    grow further, and contribute to impactful digital products.
+    I’m currently seeking new opportunities as a Frontend Developer, where I can apply my expertise, grow further, 
+    and contribute to impactful digital products within collaborative teams.
     `,
   },
   experiences: {
@@ -78,11 +79,12 @@ export const CV_DATA = {
         `,
         company: "Jotform",
         companyLink: "https://jotform.com/",
-        startDate: "21.08.2023",
-        endDate: "30.04.2025",
+        startDate: "08/2023",
+        endDate: "05/2025",
         technologies: [
           "React",
           "Redux",
+          "Saga",
           "HTML",
           "CSS/SCSS",
           "JavaScript",
@@ -91,7 +93,6 @@ export const CV_DATA = {
           "Git / GitHub",
           "Monorepo",
           "RDS",
-          "Slack",
           "Notion",
         ],
       },
@@ -120,9 +121,9 @@ export const CV_DATA = {
           "Using HTML, CSS, JavaScript, and React, I helped identify and fix issues in Jotform products, improving the user experience.",
         company: "Jotform",
         companyLink: "https://jotform.com/",
-        startDate: "01.11.2022",
-        endDate: "03.07.2023",
-        technologies: ["React", "HTML", "CSS/SCSS", "JavaScript", "Git / GitHub"],
+        startDate: "11/2022",
+        endDate: "07/2023",
+        technologies: ["React", "HTML", "CSS/SCSS", "JavaScript", "Git / GitHub", "RDS", "Axios"],
       },
       {
         job: "UI Developer Intern",
@@ -130,8 +131,8 @@ export const CV_DATA = {
           "Developed several web projects using HTML, CSS, JavaScript, and React.",
         company: "Jotform",
         companyLink: "https://jotform.com/",
-        startDate: "01.08.2022",
-        endDate: "26.08.2022",
+        startDate: "08/2022",
+        endDate: "09/2022",
         technologies: ["React", "HTML", "CSS/SCSS", "JavaScript", "Git / GitHub"],
       },
       {
@@ -140,8 +141,8 @@ export const CV_DATA = {
           "During my voluntary internship, I created corporate websites using WordPress and made CSS modifications to improve the themes.",
         company: "Gali Medya",
         companyLink: "https://www.galimedya.com/",
-        startDate: "02.08.2021",
-        endDate: "10.09.2021",
+        startDate: "08/2021",
+        endDate: "10/2021",
         technologies: ["Wordpress", "HTML", "CSS", "JavaScript", "PHP"],
       },
       {
@@ -153,12 +154,14 @@ export const CV_DATA = {
         endDate: "Still",
         technologies: [
           "HTML",
-          "CSS",
+          "CSS/SCSS",
           "JavaScript",
           "PHP",
           "MySql",
-          "Tailwind",
+          "TailwindCSS",
           "Bootstrap",
+          "PhpMyAdmin",
+          "cPanel",
         ],
       },
     ],
@@ -264,15 +267,16 @@ export const CV_DATA = {
       {
         title: "Tech Stack",
         items: [
-          "JavaScript (ES6+)",
-          "HTML5",
-          "CSS3 / SCSS",
-          "PHP (PDO)",
           "React",
           "Next.js",
           "Redux",
+          "Saga",
           "Context API",
+          "JavaScript",
+          "HTML5",
+          "CSS/SCSS",
           "Styled Components",
+          "PHP (PDO)",
           "TailwindCSS",
           "Bootstrap",
           "UI Libraries"
@@ -320,7 +324,27 @@ export const CV_DATA = {
         ]
       }
     ]
-  },  
+  },
+  references: {
+    title: "References",
+    data: [
+      {
+        name: "Ayhan Dönmez",
+        title: "Senior Infrastructure & Cloud System Engineer at Türkiye İş Bankası",
+        link: "https://www.linkedin.com/in/ayhandonmez/"
+      },
+      {
+        name: "Onur Sencer",
+        title: "Director of Product at Jotform",
+        link: "https://www.linkedin.com/in/onur-sencer-917989a/"
+      },
+      {
+        name: "Erdem Erol",
+        title: "Team Lead / Senior Backend Developer at Jotform",
+        link: "https://www.linkedin.com/in/virtuezza/"
+      },
+    ]
+  },
   educations: {
     title: "Education",
     data: [

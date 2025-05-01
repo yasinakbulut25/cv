@@ -6,6 +6,7 @@ import Experiences from "./components/Experiences";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import References from "./components/References";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Experiences />
         <Projects />
         <Skills />
+        <References />
         <Educations />
       </section>
       <Button

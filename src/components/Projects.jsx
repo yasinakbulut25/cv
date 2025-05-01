@@ -7,10 +7,7 @@ import Chip from "./Chip";
 
 function Projects() {
   const { projects } = CV_DATA;
-  const footerText = `
-    For more projects, you can visit my personal portfolio: 
-    <a class='!text-blue-500 hover:underline' href='https://yasinakbulut.dev' target='_blank'>yasinakbulut.dev</a>
-  `;
+
   return (
     <Section className="print-force-new-page print:pt-16">
       <Title text={projects.title} />
@@ -25,7 +22,9 @@ function Projects() {
               <Text text={item.desc} size="xs" />
               <div className="flex gap-2 mt-1 items-center">
                 <div className="flex flex-col gap-1">
-                  <a href={item.linkUrl} className="relative inline-block w-max text-pretty font-mono text-xs text-gray-500 print:text-gray-800 print:text-[12px]">{item.linkText}</a>
+                  <a href={item.linkUrl} className="relative inline-block w-max text-pretty font-mono text-xs text-gray-500 print:text-gray-800 print:text-[12px]">
+                    <i>{item.linkText}</i>
+                  </a>
                   {item.linkText2 && <a href={item.linkUrl2} className="relative inline-block w-max text-pretty font-mono text-xs text-gray-500 print:text-gray-800 print:text-[12px]">{item.linkText2}</a>}
                 </div>
                 {item.technologies?.length > 0 && (
@@ -42,7 +41,7 @@ function Projects() {
       </div>
       <p className="text-pretty font-mono text-xs print:text-[12px]">
         <span className="text-gray-500 print:text-gray-800">For more projects, you can visit my personal portfolio: </span>
-        <a style={{ color: "#2b7fff"}} class='text-blue-400 hover:underline' href='https://yasinakbulut.dev' target='_blank'>yasinakbulut.dev</a>
+        <a style={{ color: "#2b7fff"}} className='text-blue-400 hover:underline' href='https://yasinakbulut.dev' target='_blank'>yasinakbulut.dev</a>
       </p>
     </Section>
   );
