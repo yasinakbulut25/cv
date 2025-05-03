@@ -273,6 +273,7 @@ export const CV_DATA = {
           "Saga",
           "Context API",
           "JavaScript",
+          "TypeScript",
           "HTML5",
           "CSS/SCSS",
           "Styled Components",
