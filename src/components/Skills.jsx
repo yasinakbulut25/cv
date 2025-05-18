@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import { CV_DATA } from "../data/CvData";
 import Section from "./Section";
 import Title from "./Title";
 import Chip from "./Chip";
 
-function Skills() {
-  const { skills } = CV_DATA;
+function Skills({ lang }) {
+  const { skills } = CV_DATA[lang];
 
   return (
     <Section>

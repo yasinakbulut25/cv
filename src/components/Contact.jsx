@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { CV_DATA } from "../data/CvData";
 import { Button, Link } from "@nextui-org/react";
 
-function Contact() {
-  const { name, jobDetail, contact } = CV_DATA;
+function Contact({ lang }) {
+  const { name, jobDetail, contact } = CV_DATA[lang];
   return (
     <div className="flex-1 space-y-2">
       <h1 className="text-3xl font-bold tracking-wide">{name}</h1>

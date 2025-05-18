@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import { CV_DATA } from "../data/CvData";
 import Section from "./Section";
 import Title from "./Title";
 
-function References() {
-  const { references } = CV_DATA;
+function References({ lang }) {
+  const { references } = CV_DATA[lang];
 
   return (
     <Section>

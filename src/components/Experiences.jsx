@@ -1,13 +1,13 @@
+/* eslint-disable react/prop-types */
 import { CV_DATA } from "../data/CvData";
 import Section from "./Section";
 import Title from "./Title";
 import FlexTitle from "./FlexTitle";
 import Text from "./Text";
 import Chip from "./Chip";
-import SubTitle from "./SubTitle";
 
-function Experiences() {
-  const { experiences } = CV_DATA;
+function Experiences({ lang }) {
+  const { experiences } = CV_DATA[lang];
   const jfJobs = experiences.data.filter(j => j.company === "Jotform");
   return (
     <Section>

@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { Image } from "@nextui-org/react";
 import { CV_DATA } from "../data/CvData";
 
-function Profile() {
-  const { name, profileImg } = CV_DATA;
+function Profile({ lang }) {
+  const { name, profileImg } = CV_DATA[lang];
   return (
     <div className="relative flex shrink-0 overflow-hidden rounded-xl size-36">
       <Image

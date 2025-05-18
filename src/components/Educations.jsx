@@ -1,11 +1,12 @@
+/* eslint-disable react/prop-types */
 import { CV_DATA } from "../data/CvData";
 import Section from "./Section";
 import Title from "./Title";
 import FlexTitle from "./FlexTitle";
 import Text from "./Text";
 
-function Educations() {
-  const { educations } = CV_DATA;
+function Educations({ lang }) {
+  const { educations } = CV_DATA[lang];
 
   return (
     <Section>
