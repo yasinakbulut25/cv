@@ -299,16 +299,16 @@ export const CV_DATA = {
           title: "Tools & Deployment",
           items: [
             "Git / GitHub",
+            "CI / CD",
+            "Unit Test",
+            "Microservices",
             "Monorepo",
             "RDS",
             "ESLint",
-            "Figma for dev",
-            "Notion",
-            "Slack",
-            "CPanel",
+            "cPanel",
             "Vercel",
-            "Netlify"
-          ]
+            "Netlify",
+          ],
         },
         {
           title: "Workflow",
@@ -577,12 +577,12 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
           title: "Yayınlama ve Geliştirme",
           items: [
             "Git / GitHub",
+            "CI / CD",
+            "Unit Test",
+            "Microservices",
             "Monorepo",
             "RDS",
             "ESLint",
-            "Figma for dev",
-            "Notion",
-            "Slack",
             "cPanel",
             "Vercel",
             "Netlify",
