@@ -13,8 +13,8 @@ function References({ lang }) {
         {references.data.map((item, index) => {
           return (
             <a href={item.link} target="_blank" key={index} className="flex items-center gap-1">
-              <p className="text-sm text-black">{item.name} -</p>
-              <p className="text-sm" style={{ color: "#374151", fontWeight: "300"}}>{item.title}</p>
+              <p className="text-md text-black">{item.name} -</p>
+              <p className="text-md" style={{ color: "#374151", fontWeight: "300"}}>{item.title}</p>
             </a>
           );
         })}

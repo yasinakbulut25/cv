@@ -17,7 +17,7 @@ function Educations({ lang }) {
           return (
             <div key={index} className="flex flex-col gap-2">
               <FlexTitle text={item.title} rightText={rightContent} />
-              <Text text={item.desc} size="xs" />
+              <Text text={item.desc} size="sm" />
             </div>
           );
         })}

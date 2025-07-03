@@ -21,23 +21,26 @@ function App() {
         </section>
         <About lang={lang} />
         <Experiences lang={lang} />
-        <Projects lang={lang} />
         <Skills lang={lang} />
+        <Projects lang={lang} />
         <References lang={lang} />
         <Educations lang={lang} />
       </section>
       <Button
         className="fixed right-6 bottom-6 z-10 bg-black w-max text-gray-100 print:hidden"
         as={Link}
-        href={`${lang === "tr" ? '/Yasin_Akbulut_CV_TR.pdf' : '/Yasin_Akbulut_CV_EN.pdf'}`}
+        href={`${
+          lang === "tr"
+            ? "/Yasin_Akbulut_CV_TR.pdf"
+            : "/Yasin_Akbulut_CV_EN.pdf"
+        }`}
         isExternal
       >
         {lang === "en" ? "View in PDF" : "PDF Olarak Göster"}
-        
       </Button>
       <Button
         className="fixed right-6 bottom-[72px] z-10 bg-black w-max text-gray-100 print:hidden"
-        onClick={() => setLang((prev) => prev === "en" ? "tr" : "en")}
+        onClick={() => setLang((prev) => (prev === "en" ? "tr" : "en"))}
       >
         {lang === "en" ? "Türkçe Göster" : "Show in English"}
       </Button>

@@ -11,7 +11,7 @@ import {
 const iconSize = 14;
 
 export const CV_DATA = {
-  "en": {
+  en: {
     name: "Yasin Akbulut",
     jobDetail: "Frontend Developer",
     profileImg: ProfileImg,
@@ -50,33 +50,30 @@ export const CV_DATA = {
     about: {
       title: "About",
       text: `
-      Frontend Developer with experience in building <b>scalable</b> and <b>maintainable</b> user interfaces using technologies 
-      such as <b>React, Next.js, Redux, Saga,</b> and <b>Styled Components</b>. Skilled in translating <b>design systems</b> into clean, 
-      intuitive interfaces and delivering consistent user experiences across platforms.
+      As a Frontend Developer, I build performance-focused and scalable user interfaces using
+      <b>React.js, Next.js, TypeScript, Redux, Redux-Saga</b>, and <b>Styled Components</b>. I have
+      experience in <b>RESTful API</b> integration, component-based architecture, and turning design
+      systems into user-friendly interfaces.
       <br/> <br/>
-      At Jotform, a platform serving over 25 million users, I worked as part of the <b>Product team</b>, contributing to key 
-      features like <b>Push Notification, Copilot,</b> and <b>User Management</b> for the <b>No Code App Builder</b>, within a 
-      <b>monorepo architecture</b> shared across teams. I also took part in the development of Jotform AI Agents, 
-      creating dynamic email templates.
+      At Jotform, a company serving over 25 million users, I worked as part of the <b>Product team</b>.
+      Within a shared <b>monorepo</b> architecture, I contributed to core features of the <b>No Code App
+      Builder</b> platform, such as <b>Push Notification, Copilot</b>, and <b>User Management</b>. I was also
+      involved in the development of <b>Jotform AI Agents</b> and created dynamic email templates.
       <br/> <br/>
-      Outside of my professional role, I built and deployed personal web projects that generate passive income and 
-      strengthened my skills in end-to-end, scalable web development.
-      <br/> <br/>
-      I’m currently seeking new opportunities as a Frontend Developer, where I can apply my expertise, grow further, 
-      and contribute to impactful digital products within collaborative teams.
+      In addition to my professional work, I developed personal side projects that <b>generate
+      passive income</b> and helped me improve my full-stack web development skills.
       `,
     },
     experiences: {
-      title: "Work Experiences",
+      title: "Experiences",
       data: [
         {
-          job: "Frontend / UI Developer",
+          job: "Frontend Developer",
           jobDesc: `
-          Worked within the Product team to improve user experience by refining features and contributing to new 
-          functionalities in Jotform’s core platforms, using a Remote Development System (RDS).
-          <br/>
-          Participated in the development of international landing pages as part of the Growth team, 
-          focusing on optimization and localization for global users.
+          At Jotform, I worked in the Product team, where I developed new features and improved
+          existing functionalities on the main platforms using RDS infrastructure. I also played an active
+          role in the Growth team, contributing to the development of landing pages focused on
+          localization and performance optimization for global users.
           `,
           company: "Jotform",
           companyLink: "https://jotform.com/",
@@ -97,7 +94,7 @@ export const CV_DATA = {
             "Notion",
           ],
         },
-       /*  {
+        /*  {
           job: "Junior UI Developer",
           jobDesc: `
           I work on the Product team. Our main focus is to ensure smooth user experiences and continuously improve our products by enhancing existing features and adding new ones.
@@ -119,27 +116,41 @@ export const CV_DATA = {
         {
           job: "UI Developer (Part Time)",
           jobDesc:
-            "Using HTML, CSS, JavaScript, and React, I helped identify and fix issues in Jotform products, improving the user experience.",
+            "I worked on improving user experience in Jotform products by fixing UI bugs using HTML, CSS, JavaScript, and React.js.",
           company: "Jotform",
           companyLink: "https://jotform.com/",
           startDate: "11/2022",
           endDate: "07/2023",
-          technologies: ["React", "HTML", "CSS/SCSS", "JavaScript", "Git / GitHub", "RDS", "Axios"],
+          technologies: [
+            "React",
+            "HTML",
+            "CSS/SCSS",
+            "JavaScript",
+            "Git / GitHub",
+            "RDS",
+            "Axios",
+          ],
         },
         {
           job: "UI Developer Intern",
           jobDesc:
-            "Developed several web projects using HTML, CSS, JavaScript, and React.",
+            "I worked on frontend development and component-based structure in various web projects using React.js, HTML, CSS, and JavaScript.",
           company: "Jotform",
           companyLink: "https://jotform.com/",
           startDate: "08/2022",
           endDate: "09/2022",
-          technologies: ["React", "HTML", "CSS/SCSS", "JavaScript", "Git / GitHub"],
+          technologies: [
+            "React",
+            "HTML",
+            "CSS/SCSS",
+            "JavaScript",
+            "Git / GitHub",
+          ],
         },
         {
           job: "Web Developer",
           jobDesc:
-            "I created corporate websites using WordPress and made CSS modifications to improve the themes.",
+            "I developed corporate websites based on WordPress and customized themes and CSS styles.",
           company: "Gali Medya",
           companyLink: "https://www.galimedya.com/",
           startDate: "08/2021",
@@ -148,8 +159,12 @@ export const CV_DATA = {
         },
         {
           job: "Freelance Full Stack Developer",
-          jobDesc:
-            "I developed many corporate websites using HTML, CSS, JavaScript, PHP, and MySQL, generating income from these projects. I improved my project management and communication skills.",
+          jobDesc: `
+            I developed many corporate websites using React.js, Next.js, Redux, Redux-Saga, TypeScript,
+            JavaScript, HTML, CSS, PHP, and MySQL. In these projects, I gained experience in RESTful API
+            integration, user interface development, and database management, as well as project planning
+            and client communication.
+            `,
           company: "Freelance Full Stack Developer",
           startDate: "Since university",
           endDate: "Still",
@@ -173,7 +188,7 @@ export const CV_DATA = {
         {
           title: "Personal Portfolio",
           desc: `
-            You can review all my experiences, projects, works, and skills.
+            You can review all my experiences, projects, works, skills and blog posts.
           `,
           linkText: "yasinakbulut.dev",
           linkUrl: "https://yasinakbulut.dev",
@@ -255,7 +270,7 @@ export const CV_DATA = {
         }, */
         {
           title: "Personal Portfolio for IVF Specialist",
-          desc: "A personal website specially designed and developed for a medical doctor specialized in IVF (In Vitro Fertilization), to promote their expertise, share medical content.",
+          desc: "A personal website specially designed and developed for a medical doctor specialized in IVF, to promote their expertise, share medical content.",
           linkText: "arzuyurci.com",
           linkUrl: "https://arzuyurci.com/",
           // technologies: ["HTML", "PHP", "MySql", "CSS", "JavaScript"],
@@ -268,7 +283,7 @@ export const CV_DATA = {
         {
           title: "Tech Stack",
           items: [
-            "React",
+            "React.js",
             "Next.js",
             "Redux",
             "Saga",
@@ -278,11 +293,15 @@ export const CV_DATA = {
             "HTML5",
             "CSS/SCSS",
             "Styled Components",
-            "PHP (PDO)",
             "TailwindCSS",
             "Bootstrap",
-            "UI Libraries"
-          ]
+            "UI Libraries",
+            "PWA",
+            "Lighthouse",
+            "React DevTools",
+            "Redux DevTools",
+            "PHP (PDO)",
+          ],
         },
         {
           title: "API & Database",
@@ -292,16 +311,16 @@ export const CV_DATA = {
             "JSON",
             "Postman",
             "MySQL",
-            "PhpMyAdmin"
-          ]
+            "PhpMyAdmin",
+          ],
         },
         {
           title: "Tools & Deployment",
           items: [
             "Git / GitHub",
             "CI / CD",
+            "GitHub Actions",
             "Unit Test",
-            "Microservices",
             "Monorepo",
             "RDS",
             "ESLint",
@@ -315,37 +334,35 @@ export const CV_DATA = {
           items: [
             "Agile / Scrum Methodology",
             "Problem Solving",
-            "Team Collaboration"
-          ]
+            "Team Collaboration",
+          ],
         },
         {
           title: "Currently Learning",
-          items: [
-            "TypeScript",
-            "Vue.js",
-          ]
-        }
-      ]
+          items: ["TypeScript", "Vue.js"],
+        },
+      ],
     },
     references: {
       title: "References",
       data: [
         {
           name: "Ayhan Dönmez",
-          title: "Senior Infrastructure & Cloud System Engineer at Türkiye İş Bankası",
-          link: "https://www.linkedin.com/in/ayhandonmez/"
+          title:
+            "Senior Infrastructure & Cloud System Engineer at Türkiye İş Bankası",
+          link: "https://www.linkedin.com/in/ayhandonmez/",
         },
         {
           name: "Onur Sencer",
           title: "Director of Product at Jotform",
-          link: "https://www.linkedin.com/in/onur-sencer-917989a/"
+          link: "https://www.linkedin.com/in/onur-sencer-917989a/",
         },
         {
           name: "Erdem Erol",
           title: "Team Lead / Senior Backend Developer at Jotform",
-          link: "https://www.linkedin.com/in/virtuezza/"
+          link: "https://www.linkedin.com/in/virtuezza/",
         },
-      ]
+      ],
     },
     educations: {
       title: "Education",
@@ -359,7 +376,7 @@ export const CV_DATA = {
       ],
     },
   },
-  "tr": {
+  tr: {
     name: "Yasin Akbulut",
     jobDetail: "Frontend Developer",
     profileImg: ProfileImg,
@@ -398,30 +415,31 @@ export const CV_DATA = {
     about: {
       title: "Hakkımda",
       text: `
-      Frontend Developer olarak, <b>React, Next.js, Redux, Saga, TypeScript</b> ve <b>Styled Components</b> gibi teknolojileri kullanarak ölçeklenebilir ve 
-      sürdürülebilir kullanıcı arayüzleri oluşturma konusunda deneyimliyim. 
-      Tasarım sistemlerini temiz ve kullanılabilir arayüzlere dönüştürme ve platformlar arasında tutarlı 
-      kullanıcı deneyimleri sunma konusunda yetenekliyim.
-  <br/><br/>
-  25 milyondan fazla kullanıcıya hizmet veren bir şirket olan Jotform'da, <b>Product ekibinin</b> bir parçası olarak çalıştım 
-  ve ekipler arasında paylaşılan bir <b>monorepo mimarisi</b> içinde <b>No Code App Builder</b> platformu için <b>Push Notification, Copilot</b> 
-  ve <b>User Management</b> gibi temel özelliklere katkıda bulundum. Ayrıca Jotform AI Agents'ın geliştirilmesinde 
-  yer aldım ve <b>dinamik e-posta şablonları</b> oluşturdum.
-  <br/><br/>
-  Profesyonel işlerimin dışında, pasif gelir sağlayan kişisel projeler geliştirerek uçtan uca web geliştirme becerilerimi pekiştirdim.
-  <br/><br/>
-  Frontend Developer olarak hem katkı sağlayabileceğim hem de kendimi daha ileri taşıyabileceğim ekiplerde yer almak için yeni fırsatlar arıyorum.
+      Frontend Developer olarak <b>React.js, Next.js, TypeScript, Redux, Redux-Saga</b> ve <b>Styled
+      Components</b> ile performans odaklı, ölçeklenebilir arayüzler geliştiriyorum. <b>RESTful API</b>
+      entegrasyonları, component mimarisi ve tasarım sistemlerini kullanıcı dostu arayüzlere
+      dönüştürme konularında deneyimliyim.
+      <br/><br/>
+      25 milyondan fazla kullanıcıya hizmet veren bir şirket olan Jotform'da, <b>Product</b> ekibinin bir
+      parçası olarak çalıştım ve ekipler arasında paylaşılan bir <b>monorepo</b> mimarisi içinde <b>No
+      Code App Builder</b> platformu için <b>Push Notification, Copilot</b> ve <b>User Management</b> gibi
+      temel özelliklere katkıda bulundum. Ayrıca <b>Jotform AI Agents</b>'ın geliştirilmesinde yer aldım
+      ve dinamik e-posta şablonları oluşturdum.
+      <br/><br/>
+      Profesyonel işlerimin yanı sıra, <b>pasif gelir sağlayan kişisel projeler</b> geliştirerek uçtan uca web geliştirme becerilerimi pekiştirdim.
       `,
     },
     experiences: {
-      title: "İş Deneyimleri",
+      title: "Deneyimler",
       data: [
         {
-          job: "Frontend / UI Developer",
+          job: "Frontend Developer",
           jobDesc: `
-Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni özellikler geliştirdim ve mevcut işlevleri iyileştirdim.
-  <br/>
-  Ayrıca Growth ekibinde, global kullanıcılar için yerelleştirme ve optimizasyon odaklı açılış sayfalarının geliştirilmesine katkı sağladım.`,
+          Jotform'da Product ekibinde, ana platformlar üzerinde RDS altyapısını kullanarak yeni özellikler
+          geliştirdim ve mevcut işlevlerin iyileştirilmesine katkı sağladım. Ayrıca Growth ekibinde, global
+          kullanıcıları hedefleyen yerelleştirme ve performans optimizasyonuna yönelik açılış sayfalarının
+          geliştirilmesinde aktif rol aldım.
+          `,
           company: "Jotform",
           companyLink: "https://jotform.com/",
           startDate: "08/2023",
@@ -444,26 +462,41 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
         {
           job: "UI Developer (Part Time)",
           jobDesc:
-            "Jotform ürünlerindeki kullanıcı deneyimini artırmak için HTML, CSS, JavaScript ve React ile hata giderme ve düzeltme çalışmaları yaptım.",
+            "Jotform ürünlerinde HTML, CSS, JavaScript ve React.js ile arayüz hatalarını gidererek kullanıcı deneyimini iyileştirmeye yönelik çalışmalar yaptım.",
           company: "Jotform",
           companyLink: "https://jotform.com/",
           startDate: "11/2022",
           endDate: "07/2023",
-          technologies: ["React", "HTML", "CSS/SCSS", "JavaScript", "Git / GitHub", "RDS", "Axios"],
+          technologies: [
+            "React",
+            "HTML",
+            "CSS/SCSS",
+            "JavaScript",
+            "Git / GitHub",
+            "RDS",
+            "Axios",
+          ],
         },
         {
           job: "UI Developer Stajyeri",
-          jobDesc: "HTML, CSS, JavaScript ve React kullanarak çeşitli web projeleri geliştirdim.",
+          jobDesc:
+            "React.js, HTML, CSS ve JavaScript kullanarak çeşitli web projelerinde arayüz geliştirme ve component bazlı yapı kurma konularında görev aldım.",
           company: "Jotform",
           companyLink: "https://jotform.com/",
           startDate: "08/2022",
           endDate: "09/2022",
-          technologies: ["React", "HTML", "CSS/SCSS", "JavaScript", "Git / GitHub"],
+          technologies: [
+            "React",
+            "HTML",
+            "CSS/SCSS",
+            "JavaScript",
+            "Git / GitHub",
+          ],
         },
         {
           job: "Web Developer",
           jobDesc:
-            "WordPress altyapısıyla kurumsal web siteleri geliştirdim ve tema üzerinde CSS düzenlemeleri yaptım.",
+            "WordPress tabanlı kurumsal web siteleri geliştirerek tema ve CSS özelleştirmeleri yaptım.",
           company: "Gali Medya",
           companyLink: "https://www.galimedya.com/",
           startDate: "08/2021",
@@ -472,11 +505,15 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
         },
         {
           job: "Freelance Full Stack Geliştirici",
-          jobDesc:
-            "HTML, CSS, JavaScript, PHP ve MySQL kullanarak birçok kurumsal web sitesi geliştirdim. Bu süreçte proje yönetimi ve müşteri iletişimi becerilerimi geliştirdim.",
+          jobDesc: `
+          React.js, Next.js, Redux, Redux-Saga, TypeScript, JavaScript, HTML, CSS, PHP ve MySQL kullanarak
+          birçok kurumsal web sitesi geliştirdim. Bu projelerde RESTful API entegrasyonları, kullanıcı arayüzü
+          geliştirme ve veritabanı yönetiminin yanı sıra proje planlama ve müşteri iletişimi konularında da
+          deneyimler edindim.
+          `,
           company: "Freelance Full Stack Developer",
-          startDate: "Üniversite dönemi",
-          endDate: "Devam ediyor",
+          startDate: "Üniversite",
+          endDate: "Devam",
           technologies: [
             "HTML",
             "CSS/SCSS",
@@ -496,7 +533,7 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
       data: [
         {
           title: "Kişisel Portfolyo",
-          desc: "Tüm deneyimlerimi, projelerimi ve becerilerimi görebileceğiniz kişisel web sitem.",
+          desc: "Tüm deneyimlerimi, projelerimi, çalışmalarımı, becerilerimi ve blog yazılarımı inceleyebilirsiniz.",
           linkText: "yasinakbulut.dev",
           linkUrl: "https://yasinakbulut.dev",
         },
@@ -553,7 +590,7 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
         {
           title: "Teknolojiler",
           items: [
-            "React",
+            "React.js",
             "Next.js",
             "Redux",
             "Saga",
@@ -563,21 +600,33 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
             "HTML5",
             "CSS/SCSS",
             "Styled Components",
-            "PHP (PDO)",
             "TailwindCSS",
             "Bootstrap",
             "UI Libraries",
+            "PWA",
+            "Lighthouse",
+            "React DevTools",
+            "Redux DevTools",
+            "PHP (PDO)",
           ],
         },
         {
           title: "API & Veritabanı",
-          items: ["RESTful API", "Axios", "JSON", "Postman", "MySQL", "PhpMyAdmin"],
+          items: [
+            "RESTful API",
+            "Axios",
+            "JSON",
+            "Postman",
+            "MySQL",
+            "PhpMyAdmin",
+          ],
         },
         {
           title: "Yayınlama ve Geliştirme",
           items: [
             "Git / GitHub",
             "CI / CD",
+            "GitHub Actions",
             "Unit Test",
             "Microservices",
             "Monorepo",
@@ -590,7 +639,11 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
         },
         {
           title: "Çalışma Biçimi",
-          items: ["Agile / Scrum Metodoloji", "Problem Çözme", "Takım Çalışması"],
+          items: [
+            "Agile / Scrum Metodoloji",
+            "Problem Çözme",
+            "Takım Çalışması",
+          ],
         },
         {
           title: "Mevcut Öğrenimlerim",
@@ -603,20 +656,21 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
       data: [
         {
           name: "Ayhan Dönmez",
-          title: "Senior Infrastructure & Cloud System Engineer at Türkiye İş Bankası",
-          link: "https://www.linkedin.com/in/ayhandonmez/"
+          title:
+            "Senior Infrastructure & Cloud System Engineer at Türkiye İş Bankası",
+          link: "https://www.linkedin.com/in/ayhandonmez/",
         },
         {
           name: "Onur Sencer",
           title: "Director of Product at Jotform",
-          link: "https://www.linkedin.com/in/onur-sencer-917989a/"
+          link: "https://www.linkedin.com/in/onur-sencer-917989a/",
         },
         {
           name: "Erdem Erol",
           title: "Team Lead / Senior Backend Developer at Jotform",
-          link: "https://www.linkedin.com/in/virtuezza/"
+          link: "https://www.linkedin.com/in/virtuezza/",
         },
-      ]
+      ],
     },
     educations: {
       title: "Eğitim",
@@ -629,5 +683,5 @@ Product ekibinde, Jotform’un ana platformlarında RDS altyapısıyla yeni öze
         },
       ],
     },
-  }  
-}
+  },
+};
