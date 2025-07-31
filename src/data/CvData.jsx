@@ -529,7 +529,7 @@ export const CV_DATA = {
               ],
             },
             {
-              job: "UI Developer Stajyeri",
+              job: "Stajyer Developer ",
               jobDesc:
                 "React.js, HTML, CSS ve JavaScript kullanarak çeşitli web projelerinde arayüz geliştirme ve component bazlı yapı kurma konularında görev aldım.",
               company: "Jotform",
