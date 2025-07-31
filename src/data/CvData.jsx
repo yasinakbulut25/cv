@@ -70,15 +70,13 @@ export const CV_DATA = {
         {
           job: "Frontend Developer",
           jobDesc: `
-          At Jotform, I worked in the Product team, where I developed new features and improved
-          existing functionalities on the main platforms using RDS infrastructure. I also played an active
-          role in the Growth team, contributing to the development of landing pages focused on
-          localization and performance optimization for global users.
+          Actively involved in projects for global WPP brands, focusing on the development of responsive, UI/UX-driven, 
+          and SEO-compliant web interfaces, localization workflows, and collaborative project coordination with cross-functional teams.
           `,
-          company: "Jotform",
-          companyLink: "https://jotform.com/",
-          startDate: "08/2023",
-          endDate: "05/2025",
+          company: "Hogarth",
+          companyLink: "https://www.hogarth.com/",
+          startDate: "07/2025",
+          endDate: "still",
           technologies: [
             "React",
             "Redux",
@@ -87,11 +85,74 @@ export const CV_DATA = {
             "CSS/SCSS",
             "JavaScript",
             "Styled Components",
-            "Figma for dev",
-            "Git / GitHub",
-            "Monorepo",
-            "RDS",
-            "Notion",
+            "SVN",
+            "Radar",
+          ],
+        },
+        {
+          hasMulti: true,
+          jobs: [
+            {
+              job: "Frontend Developer",
+              jobDesc: `
+          At Jotform, I worked in the Product team, where I developed new features and improved
+          existing functionalities on the main platforms using RDS infrastructure. I also played an active
+          role in the Growth team, contributing to the development of landing pages focused on
+          localization and performance optimization for global users.
+          `,
+              company: "Jotform",
+              companyLink: "https://jotform.com/",
+              startDate: "08/2023",
+              endDate: "05/2025",
+              technologies: [
+                "React",
+                "Redux",
+                "Saga",
+                "HTML",
+                "CSS/SCSS",
+                "JavaScript",
+                "Styled Components",
+                "Figma for dev",
+                "Git / GitHub",
+                "Monorepo",
+                "RDS",
+                "Notion",
+              ],
+            },
+            {
+              job: "Frontend Developer (Part Time)",
+              jobDesc:
+                "I worked on improving user experience in Jotform products by fixing UI bugs using React.js, JavaScript, HTML, CSS.",
+              company: "Jotform",
+              companyLink: "https://jotform.com/",
+              startDate: "11/2022",
+              endDate: "07/2023",
+              technologies: [
+                "React",
+                "HTML",
+                "CSS/SCSS",
+                "JavaScript",
+                "Git / GitHub",
+                "RDS",
+                "Axios",
+              ],
+            },
+            {
+              job: "Intern Developer",
+              jobDesc:
+                "I worked on Frontend Development and component-based structure in various web projects using React.js, HTML, CSS, and JavaScript.",
+              company: "Jotform",
+              companyLink: "https://jotform.com/",
+              startDate: "08/2022",
+              endDate: "09/2022",
+              technologies: [
+                "React",
+                "HTML",
+                "CSS/SCSS",
+                "JavaScript",
+                "Git / GitHub",
+              ],
+            },
           ],
         },
         /*  {
@@ -114,41 +175,7 @@ export const CV_DATA = {
           ],
         }, */
         {
-          job: "UI Developer (Part Time)",
-          jobDesc:
-            "I worked on improving user experience in Jotform products by fixing UI bugs using HTML, CSS, JavaScript, and React.js.",
-          company: "Jotform",
-          companyLink: "https://jotform.com/",
-          startDate: "11/2022",
-          endDate: "07/2023",
-          technologies: [
-            "React",
-            "HTML",
-            "CSS/SCSS",
-            "JavaScript",
-            "Git / GitHub",
-            "RDS",
-            "Axios",
-          ],
-        },
-        {
-          job: "UI Developer Intern",
-          jobDesc:
-            "I worked on frontend development and component-based structure in various web projects using React.js, HTML, CSS, and JavaScript.",
-          company: "Jotform",
-          companyLink: "https://jotform.com/",
-          startDate: "08/2022",
-          endDate: "09/2022",
-          technologies: [
-            "React",
-            "HTML",
-            "CSS/SCSS",
-            "JavaScript",
-            "Git / GitHub",
-          ],
-        },
-        {
-          job: "Web Developer",
+          job: "Frontend Developer",
           jobDesc:
             "I developed corporate websites based on WordPress and customized themes and CSS styles.",
           company: "Gali Medya",
@@ -160,10 +187,9 @@ export const CV_DATA = {
         {
           job: "Freelance Full Stack Developer",
           jobDesc: `
-            I developed many corporate websites using React.js, Next.js, Redux, Redux-Saga, TypeScript,
-            JavaScript, HTML, CSS, PHP, and MySQL. In these projects, I gained experience in RESTful API
-            integration, user interface development, and database management, as well as project planning
-            and client communication.
+            I developed many websites using React.js, Next.js, Redux, Redux-Saga, TypeScript, JavaScript, 
+            HTML, CSS, PHP, and MySQL. In these projects, I gained experience in RESTful API integration, 
+            UI/UX development, database management, project planning and client communication.
             `,
           company: "Freelance Full Stack Developer",
           startDate: "Since university",
@@ -435,15 +461,13 @@ export const CV_DATA = {
         {
           job: "Frontend Developer",
           jobDesc: `
-          Jotform'da Product ekibinde, ana platformlar üzerinde RDS altyapısını kullanarak yeni özellikler
-          geliştirdim ve mevcut işlevlerin iyileştirilmesine katkı sağladım. Ayrıca Growth ekibinde, global
-          kullanıcıları hedefleyen yerelleştirme ve performans optimizasyonuna yönelik açılış sayfalarının
-          geliştirilmesinde aktif rol aldım.
+          Global WPP markalarına ait projelerde, responsive, UI/UX ve SEO odaklı web arayüzlerinin geliştirilmesi, lokalizasyonu 
+          ve ekiplerle koordineli proje yönetimi süreçlerinde aktif rol alıyorum.
           `,
-          company: "Jotform",
-          companyLink: "https://jotform.com/",
-          startDate: "08/2023",
-          endDate: "05/2025",
+          company: "Hogarth",
+          companyLink: "https://www.hogarth.com/",
+          startDate: "07/2025",
+          endDate: "devam",
           technologies: [
             "React",
             "Redux",
@@ -452,45 +476,74 @@ export const CV_DATA = {
             "CSS/SCSS",
             "JavaScript",
             "Styled Components",
-            "Figma for dev",
-            "Git / GitHub",
-            "Monorepo",
-            "RDS",
-            "Notion",
+            "SVN",
+            "Radar",
           ],
         },
         {
-          job: "UI Developer (Part Time)",
-          jobDesc:
-            "Jotform ürünlerinde HTML, CSS, JavaScript ve React.js ile arayüz hatalarını gidererek kullanıcı deneyimini iyileştirmeye yönelik çalışmalar yaptım.",
-          company: "Jotform",
-          companyLink: "https://jotform.com/",
-          startDate: "11/2022",
-          endDate: "07/2023",
-          technologies: [
-            "React",
-            "HTML",
-            "CSS/SCSS",
-            "JavaScript",
-            "Git / GitHub",
-            "RDS",
-            "Axios",
-          ],
-        },
-        {
-          job: "UI Developer Stajyeri",
-          jobDesc:
-            "React.js, HTML, CSS ve JavaScript kullanarak çeşitli web projelerinde arayüz geliştirme ve component bazlı yapı kurma konularında görev aldım.",
-          company: "Jotform",
-          companyLink: "https://jotform.com/",
-          startDate: "08/2022",
-          endDate: "09/2022",
-          technologies: [
-            "React",
-            "HTML",
-            "CSS/SCSS",
-            "JavaScript",
-            "Git / GitHub",
+          hasMulti: true,
+          jobs: [
+            {
+              job: "Frontend Developer",
+              jobDesc: `
+          Jotform'da Product ekibinde, ana platformlar üzerinde RDS altyapısını kullanarak yeni özellikler
+          geliştirdim ve mevcut işlevlerin iyileştirilmesine katkı sağladım. Ayrıca Growth ekibinde, global
+          kullanıcıları hedefleyen yerelleştirme ve performans optimizasyonuna yönelik açılış sayfalarının
+          geliştirilmesinde aktif rol aldım.
+          `,
+              company: "Jotform",
+              companyLink: "https://jotform.com/",
+              startDate: "08/2023",
+              endDate: "05/2025",
+              technologies: [
+                "React",
+                "Redux",
+                "Saga",
+                "HTML",
+                "CSS/SCSS",
+                "JavaScript",
+                "Styled Components",
+                "Figma for dev",
+                "Git / GitHub",
+                "Monorepo",
+                "RDS",
+                "Notion",
+              ],
+            },
+            {
+              job: "UI Developer (Part Time)",
+              jobDesc:
+                "Jotform ürünlerinde HTML, CSS, JavaScript ve React.js ile arayüz hatalarını gidererek kullanıcı deneyimini iyileştirmeye yönelik çalışmalar yaptım.",
+              company: "Jotform",
+              companyLink: "https://jotform.com/",
+              startDate: "11/2022",
+              endDate: "07/2023",
+              technologies: [
+                "React",
+                "HTML",
+                "CSS/SCSS",
+                "JavaScript",
+                "Git / GitHub",
+                "RDS",
+                "Axios",
+              ],
+            },
+            {
+              job: "UI Developer Stajyeri",
+              jobDesc:
+                "React.js, HTML, CSS ve JavaScript kullanarak çeşitli web projelerinde arayüz geliştirme ve component bazlı yapı kurma konularında görev aldım.",
+              company: "Jotform",
+              companyLink: "https://jotform.com/",
+              startDate: "08/2022",
+              endDate: "09/2022",
+              technologies: [
+                "React",
+                "HTML",
+                "CSS/SCSS",
+                "JavaScript",
+                "Git / GitHub",
+              ],
+            },
           ],
         },
         {
@@ -506,10 +559,9 @@ export const CV_DATA = {
         {
           job: "Freelance Full Stack Geliştirici",
           jobDesc: `
-          React.js, Next.js, Redux, Redux-Saga, TypeScript, JavaScript, HTML, CSS, PHP ve MySQL kullanarak
-          birçok kurumsal web sitesi geliştirdim. Bu projelerde RESTful API entegrasyonları, kullanıcı arayüzü
-          geliştirme ve veritabanı yönetiminin yanı sıra proje planlama ve müşteri iletişimi konularında da
-          deneyimler edindim.
+          React.js, Next.js, Redux, Redux-Saga, TypeScript, JavaScript, HTML, CSS, PHP ve MySQL kullanarak 
+          birçok kurumsal web sitesi geliştirdim. Bu projelerde RESTful API entegrasyonları, UI/UX geliştirme, 
+          veritabanı yönetimi, proje planlama ve müşteri iletişimi konularında deneyimler edindim.
           `,
           company: "Freelance Full Stack Developer",
           startDate: "Üniversite",

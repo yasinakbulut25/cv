@@ -10,7 +10,7 @@ function FlexTitle({ text, rightText, link, job }) {
             {text}
             <ExternalLink className="w-3 text-gray-400 print:hidden" />
           </a>
-          {job && <span className="text-sm leading-none">- {job}</span>}
+          {job && <span className="text-base leading-none">· {job}</span>}
         </h3>
       ) : (
         <h3 className="w-max text-base font-semibold leading-none">{text}</h3>
