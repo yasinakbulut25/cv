@@ -511,7 +511,7 @@ export const CV_DATA = {
               ],
             },
             {
-              job: "UI Developer (Part Time)",
+              job: "Frontend Developer (Part Time)",
               jobDesc:
                 "Jotform ürünlerinde HTML, CSS, JavaScript ve React.js ile arayüz hatalarını gidererek kullanıcı deneyimini iyileştirmeye yönelik çalışmalar yaptım.",
               company: "Jotform",
@@ -547,7 +547,7 @@ export const CV_DATA = {
           ],
         },
         {
-          job: "Web Developer",
+          job: "Frontend Developer",
           jobDesc:
             "WordPress tabanlı kurumsal web siteleri geliştirerek tema ve CSS özelleştirmeleri yaptım.",
           company: "Gali Medya",
