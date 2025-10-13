@@ -366,7 +366,7 @@ export const CV_DATA = {
         },
         {
           title: "Currently Learning",
-          items: ["TypeScript", "Vue.js"],
+          items: ["AngularJS", "Vue.js"],
         },
       ],
     },
@@ -701,7 +701,7 @@ export const CV_DATA = {
         },
         {
           title: "Mevcut Öğrenimlerim",
-          items: ["TypeScript", "Vue.js"],
+          items: ["AngularJS", "Vue.js"],
         },
       ],
     },
