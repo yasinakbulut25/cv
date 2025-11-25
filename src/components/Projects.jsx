@@ -12,7 +12,7 @@ function Projects({ lang }) {
   return (
     <Section className="print-force-new-page print:pt-16">
       <Title text={projects.title} />
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+      <div className="md:grid md:grid-cols-2 flex flex-col gap-4">
         {projects.data.map((item, index) => {
           if (item.fullWidth) {
             return (

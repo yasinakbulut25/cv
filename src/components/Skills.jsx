@@ -14,7 +14,7 @@ function Skills({ lang }) {
         {skills.data.map((item, index) => {
           const { title, items } = item;
           return (
-            <div key={index} className="flex items-baseline gap-1">
+            <div key={index} className="flex md:flex-row flex-col items-baseline gap-1">
               <h2 className="text-sm font-bold min-w-max">{title}:</h2>
               <div className="flex gap-1 items-center flex-wrap">
                 {items.map((skill, i) => (
