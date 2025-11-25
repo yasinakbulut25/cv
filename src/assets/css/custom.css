@@ -1,4 +1,5 @@
-section b {
+section b,
+section strong {
     font-weight: 500;
     color: #1f2937;
 }

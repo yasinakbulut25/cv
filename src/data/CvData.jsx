@@ -13,7 +13,7 @@ const iconSize = 14;
 export const CV_DATA = {
   en: {
     name: "Yasin Akbulut",
-    jobDetail: "Frontend Developer",
+    jobDetail: "Frontend Developer (React | Next.js | TypeScript)",
     profileImg: ProfileImg,
     contact: [
       {
@@ -50,18 +50,31 @@ export const CV_DATA = {
     about: {
       title: "About",
       text: `
-      As a Frontend Developer, I build performance-focused and scalable user interfaces using
-      <b>React.js, Next.js, TypeScript, Redux, Redux-Saga</b>, and <b>Styled Components</b>. I have
-      experience in <b>RESTful API</b> integration, component-based architecture, and turning design
-      systems into user-friendly interfaces.
-      <br/> <br/>
-      At Jotform, a company serving over 25 million users, I worked as part of the <b>Product team</b>.
-      Within a shared <b>monorepo</b> architecture, I contributed to core features of the <b>No Code App
-      Builder</b> platform, such as <b>Push Notification, Copilot</b>, and <b>User Management</b>. I was also
-      involved in the development of <b>Jotform AI Agents</b> and created dynamic email templates.
-      <br/> <br/>
-      In addition to my professional work, I developed personal side projects that <b>generate
-      passive income</b> and helped me improve my full-stack web development skills.
+        I develop modern, high-performance, and scalable interfaces using 
+        <strong>React.js, Next.js, TypeScript, JavaScript, and jQuery</strong>. 
+        I build strong UI foundations with 
+        <strong>HTML, CSS/SAAS, Styled Components, TailwindCSS</strong> and various 
+        <strong>UI libraries</strong>.
+        <br/>
+        <br/>
+        I manage global state with 
+        <strong>Redux Toolkit, Saga, Zustand, and Context API</strong>. 
+        I have experience with 
+        <strong>RESTful API</strong> integrations, 
+        <strong>JWT</strong> authentication, 
+        <strong>Git</strong> version control, 
+        <strong>CI/CD</strong> pipelines, 
+        <strong>PWA</strong> development, 
+        <strong>monorepo</strong> structures, 
+        <strong>UI/UX</strong> improvements, 
+        <strong>pixel-perfect UI</strong> and 
+        <strong>reusable component</strong> architecture.
+        <br/>
+        <br/>
+        I am experienced in teamwork, agile methodologies, sprint cycles, and task management. 
+        In addition to my professional work, I build 
+        <strong>personal SaaS projects that generate passive income</strong>, giving me 
+        end-to-end product development experience.
       `,
     },
     experiences: {
@@ -95,14 +108,16 @@ export const CV_DATA = {
             {
               job: "Frontend Developer",
               jobDesc: `
-          At Jotform, I worked in the Product team, where I developed new features and improved
-          existing functionalities on the main platforms using RDS infrastructure. I also played an active
-          role in the Growth team, contributing to the development of landing pages focused on
-          localization and performance optimization for global users.
-          `,
+              I worked in the <strong>Product</strong> team at Jotform, a company serving over 
+              25 million users. I contributed to projects such as 
+              <strong>No Code App Builder</strong>, <strong>Push Notification</strong>, 
+              <strong>Copilot</strong>, and <strong>User Management</strong> within a 
+              shared <strong>monorepo</strong> architecture across multiple teams.
+              <span class="block mt-2">I developed user-focused, pixel-perfect interfaces and worked on UI/UX improvements, bug fixing and component architecture.</span>
+              `,
               company: "Jotform",
               companyLink: "https://jotform.com/",
-              startDate: "08/2023",
+              startDate: "11/2022",
               endDate: "05/2025",
               technologies: [
                 "React",
@@ -119,24 +134,24 @@ export const CV_DATA = {
                 "Notion",
               ],
             },
-            {
-              job: "Frontend Developer (Part Time)",
-              jobDesc:
-                "I worked on improving user experience in Jotform products by fixing UI bugs using React.js, JavaScript, HTML, CSS.",
-              company: "Jotform",
-              companyLink: "https://jotform.com/",
-              startDate: "11/2022",
-              endDate: "07/2023",
-              technologies: [
-                "React",
-                "HTML",
-                "CSS/SCSS",
-                "JavaScript",
-                "Git / GitHub",
-                "RDS",
-                "Axios",
-              ],
-            },
+            // {
+            //   job: "Frontend Developer (Part Time)",
+            //   jobDesc:
+            //     "I worked on improving user experience in Jotform products by fixing UI bugs using React.js, JavaScript, HTML, CSS.",
+            //   company: "Jotform",
+            //   companyLink: "https://jotform.com/",
+            //   startDate: "11/2022",
+            //   endDate: "07/2023",
+            //   technologies: [
+            //     "React",
+            //     "HTML",
+            //     "CSS/SCSS",
+            //     "JavaScript",
+            //     "Git / GitHub",
+            //     "RDS",
+            //     "Axios",
+            //   ],
+            // },
             {
               job: "Intern Developer",
               jobDesc:
@@ -177,7 +192,7 @@ export const CV_DATA = {
         {
           job: "Frontend Developer",
           jobDesc:
-            "I developed corporate websites based on WordPress and customized themes and CSS styles.",
+            "I worked on developing and improving corporate websites and contributed to SEO optimization tasks.",
           company: "Gali Medya",
           companyLink: "https://www.galimedya.com/",
           startDate: "08/2021",
@@ -214,46 +229,65 @@ export const CV_DATA = {
         {
           title: "Personal Portfolio",
           desc: `
-            You can review all my experiences, projects, works, skills and blog posts.
+            You can review all my experiences, projects, skills, and blog articles on my website.
           `,
-          linkText: "yasinakbulut.dev",
-          linkUrl: "https://yasinakbulut.dev",
+          links: [
+            {
+              linkText: "yasinakbulut.dev",
+              linkUrl: "https://yasinakbulut.dev",
+            },
+          ],
           // technologies: ["React", "HTML", "CSS", "JavaScript", "PHP", "MySql"],
         },
         {
-          title: "Customer Tracking System",
-          desc: "A system with many features that allow dietitians to manage their customers more easily and quickly, write diets, and perform graphic analysis.",
-          linkText: "diyettakibim.com",
-          linkUrl: "https://diyettakibim.com",
+          title: "Diyet Takibim",
+          desc: "A SaaS platform that provides client management and progress tracking for dietitians.",
+          links: [
+            {
+              linkText: "diyettakibim.com",
+              linkUrl: "https://diyettakibim.com",
+            },
+          ],
           technologies: [
             "Sertifica: ICONDATA'22",
             /* "HTML",
             "CSS",
             "JavaScript",
             "PHP",
-            "MySql", */
-            "Shopier",
+            "MySql", 
+            "Shopier",*/
+          ],
+        },
+        {
+          title: "Wordora",
+          desc: "A modern and fast PWA application for learning English vocabulary.",
+          links: [
+            {
+              linkText: "wordora.yasinakbulut.dev",
+              linkUrl: "https://wordora.yasinakbulut.dev",
+            },
           ],
         },
         {
           title: "CV Creation and Customization",
-          desc: "A CV creation system that offers many customization options such as templates, colors, fonts, languages, and themes.",
-          linkText: "cv.yasinakbulut.dev",
-          linkUrl: "https://cv.yasinakbulut.dev",
-          // technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
-        },
-        {
-          title: "Business Directory Site",
-          desc: "A website hosting 250+ business in 140+ categories, for which I did full stack coding.",
-          linkText: "esnafvitrinim.com",
-          linkUrl: "https://esnafvitrinim.com",
+          desc: "A CV creation platform that offers many customization options such as templates, colors, fonts, language, and theme.",
+          links: [
+            {
+              linkText: "cv.yasinakbulut.dev",
+              linkUrl: "https://cv.yasinakbulut.dev",
+            },
+          ],
           // technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
         },
         {
           title: "Software Developers Community",
-          desc: "@kod_satirim is the blog site that I once used and shared about the software, which I developed as Full Stack for my instagram page.",
-          linkText: "kodsatirim.yasinakbulut.dev",
-          linkUrl: "https://kodsatirim.yasinakbulut.dev",
+          desc: "A full-stack blog platform I developed for sharing software-related content.",
+          links: [
+            {
+              linkText: "kodsatirim.yasinakbulut.dev",
+              linkUrl: "https://kodsatirim.yasinakbulut.dev",
+            },
+          ],
           /* technologies: [
             "HTML",
             "CSS",
@@ -264,10 +298,25 @@ export const CV_DATA = {
           ], */
         },
         {
+          title: "Business Directory Site",
+          desc: "A full-stack business directory featuring 140+ categories and over 250 companies.",
+          links: [
+            {
+              linkText: "esnafvitrinim.com",
+              linkUrl: "https://esnafvitrinim.com",
+            },
+          ],
+          // technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
+        },
+        {
           title: "Consulting Site With Virtual Pos",
-          desc: "A website offering services in E-Commerce, Social Media, and dropshipping. It uses iyzico infrastructure to sell packages and receive payments.",
-          linkText: "danismanlik.yasinakbulut.dev",
-          linkUrl: "https://danismanlik.yasinakbulut.dev",
+          desc: "A website offering E-commerce, Social Media, and Dropshipping services with iyzico payment support.",
+          links: [
+            {
+              linkText: "danismanlik.yasinakbulut.dev",
+              linkUrl: "https://danismanlik.yasinakbulut.dev",
+            },
+          ],
           /* technologies: [
             "Iyzico",
             "PHP",
@@ -279,13 +328,61 @@ export const CV_DATA = {
           ], */
         },
         {
-          title: "Personal Portfolio for Dietitian",
-          desc: "A personal website specially designed and developed for a dietitian, who provides online diet services.",
-          linkText: "diyetisyengizemakbulut.com",
-          linkUrl: "https://diyetisyengizemakbulut.com/",
-          linkText2: "alminamesin.com",
-          linkUrl2: "https://alminamesin.com/",
+          title: "Portfolio Websites",
+          desc: "",
+          links: [
+            {
+              title: "Nutrition Specialist:",
+              linkText: "diyetisyengizemakbulut.com",
+              linkUrl: "https://diyetisyengizemakbulut.com/",
+            },
+            {
+              title: "Nutrition Specialist:",
+              linkText: "alminamesin.com",
+              linkUrl: "https://alminamesin.com/",
+            },
+            {
+              title: "Associate Professor:",
+              linkText: "arzuyurci.com",
+              linkUrl: "https://arzuyurci.com/",
+            },
+          ],
           // technologies: ["HTML", "PHP", "MySql", "CSS", "JavaScript"],
+        },
+        {
+          title: "Projects I Build as a Hobby",
+          desc: "",
+          fullWidth: true,
+          links: [
+            {
+              title: "Movie & TV Show Info Website",
+              linkText: "",
+              linkUrl:
+                "https://yasinakbulut.dev/en/works/movie-and-series-promotion-app-with-tmdb-api",
+            },
+            {
+              title: "Dynamic Personal Calendar",
+              linkText: "",
+              linkUrl: "https://yasinakbulut.dev/en/works/calendar-app",
+            },
+            {
+              title: "Translation Notebook",
+              linkText: "",
+              linkUrl: "https://yasinakbulut.dev/en/works/translation-notebook",
+            },
+            {
+              title: "English Vocabulary Quiz",
+              linkText: "",
+              linkUrl:
+                "https://yasinakbulut.dev/en/works/english-vocabulary-quiz-app",
+            },
+            {
+              title: "Restaurant QR Menu",
+              linkText: "",
+              linkUrl:
+                "https://yasinakbulut.dev/en/works/restaurant-qr-menu-app-design",
+            },
+          ],
         },
         /* {
           title: "Calendar App",
@@ -294,79 +391,81 @@ export const CV_DATA = {
           linkUrl: "https://calendar.yasinakbulut.dev/",
           // technologies: ["React", "HTML", "CSS"],
         }, */
-        {
-          title: "Personal Portfolio for IVF Specialist",
-          desc: "A personal website specially designed and developed for a medical doctor specialized in IVF, to promote their expertise, share medical content.",
-          linkText: "arzuyurci.com",
-          linkUrl: "https://arzuyurci.com/",
-          // technologies: ["HTML", "PHP", "MySql", "CSS", "JavaScript"],
-        },
+        // {
+        //   title: "Personal Portfolio for IVF Specialist",
+        //   desc: "A personal website specially designed and developed for a medical doctor specialized in IVF, to promote their expertise, share medical content.",
+        //   linkText: "arzuyurci.com",
+        //   linkUrl: "https://arzuyurci.com/",
+        //   // technologies: ["HTML", "PHP", "MySql", "CSS", "JavaScript"],
+        // },
       ],
     },
     skills: {
       title: "Skills",
       data: [
         {
-          title: "Tech Stack",
+          title: "Frontend",
           items: [
             "React.js",
             "Next.js",
-            "Redux",
-            "Saga",
-            "Context API",
             "JavaScript",
             "TypeScript",
             "jQuery",
             "HTML5",
             "CSS/SCSS",
-            "Styled Components",
             "TailwindCSS",
             "Bootstrap",
+            "Styled Components",
             "UI Libraries",
-            "PWA",
-            "Lighthouse",
             "React DevTools",
-            "Redux DevTools",
-            "PHP (PDO)",
+            "Lighthouse",
           ],
         },
         {
-          title: "API & Database",
+          title: "State Management",
+          items: ["Redux", "Redux Saga", "Zustand", "Context API"],
+        },
+        {
+          title: "Backend & API",
           items: [
             "RESTful API Integration",
+            "Supabase",
             "Axios",
+            "JWT",
             "JSON",
             "Postman",
             "MySQL",
+            "PHP (PDO)",
             "PhpMyAdmin",
           ],
         },
         {
-          title: "Tools & Deployment",
+          title: "Build & Deployment",
           items: [
             "Git / GitHub",
-            "CI / CD",
             "GitHub Actions",
+            "CI / CD",
             "Unit Test",
             "Monorepo",
+            "PWA",
+            "NPM",
             "RDS",
-            "ESLint",
             "cPanel",
             "Vercel",
-            "Netlify",
           ],
         },
         {
-          title: "Workflow",
+          title: "Soft Skills",
           items: [
             "Agile / Scrum Methodology",
             "Problem Solving",
-            "Team Collaboration",
+            "Team Working",
+            "Trello / Jira / Notion",
           ],
         },
         {
           title: "Currently Learning",
-          items: ["AngularJS", "Vue.js"],
+          items: ["Vue.js", "AngularJS"],
         },
       ],
     },
@@ -375,8 +474,7 @@ export const CV_DATA = {
       data: [
         {
           name: "Ayhan Dönmez",
-          title:
-            "Senior Infrastructure & Cloud System Engineer at Türkiye İş Bankası",
+          title: "System Architect at Türkiye İş Bankası",
           link: "https://www.linkedin.com/in/ayhandonmez/",
         },
         {
@@ -405,7 +503,7 @@ export const CV_DATA = {
   },
   tr: {
     name: "Yasin Akbulut",
-    jobDetail: "Frontend Developer",
+    jobDetail: "Frontend Developer (React | Next.js | TypeScript)",
     profileImg: ProfileImg,
     contact: [
       {
@@ -442,18 +540,23 @@ export const CV_DATA = {
     about: {
       title: "Hakkımda",
       text: `
-      Frontend Developer olarak <b>React.js, Next.js, TypeScript, Redux, Redux-Saga</b> ve <b>Styled
-      Components</b> ile performans odaklı, ölçeklenebilir arayüzler geliştiriyorum. <b>RESTful API</b>
-      entegrasyonları, component mimarisi ve tasarım sistemlerini kullanıcı dostu arayüzlere
-      dönüştürme konularında deneyimliyim.
-      <br/><br/>
-      25 milyondan fazla kullanıcıya hizmet veren bir şirket olan Jotform'da, <b>Product</b> ekibinin bir
-      parçası olarak çalıştım ve ekipler arasında paylaşılan bir <b>monorepo</b> mimarisi içinde <b>No
-      Code App Builder</b> platformu için <b>Push Notification, Copilot</b> ve <b>User Management</b> gibi
-      temel özelliklere katkıda bulundum. Ayrıca <b>Jotform AI Agents</b>'ın geliştirilmesinde yer aldım
-      ve dinamik e-posta şablonları oluşturdum.
-      <br/><br/>
-      Profesyonel işlerimin yanı sıra, <b>pasif gelir sağlayan kişisel projeler</b> geliştirerek uçtan uca web geliştirme becerilerimi pekiştirdim.
+      <strong>React.js, Next.js, TypeScript, JavaScript, jQuery</strong> ile modern, performanslı ve ölçeklenebilir arayüzler geliştiriyorum. 
+      <strong>HTML, CSS/SAAS, Styled Components, TailwindCSS</strong> ve çeşitli 
+      <strong>UI Kütüphaneleri</strong> ile güçlü bir UI altyapısı oluşturuyorum.
+      <br/>
+      <br/>
+      <strong>Redux Toolkit</strong>, <strong>Saga</strong>, <strong>Zustand</strong> ve 
+      <strong>Context API</strong> kullanarak global state yönetimi sağlıyorum. 
+      <strong>RESTful API</strong> entegrasyonları, <strong>JWT</strong> kimlik doğrulama, 
+      <strong>Git</strong> versiyon kontrolü, <strong>CI/CD</strong> süreçleri, 
+      <strong>PWA</strong> (Progressive Web App) geliştirme ve <strong>monorepo</strong> yapıları ile 
+      <strong>UI/UX</strong>, <strong>pixel perfect UI</strong> ve 
+      <strong>reusable component</strong> mimarileri üzerinde deneyimliyim.
+      <br/>
+      <br/>
+      Takım çalışması, agile çalışma metodolojisi, sprint süreçleri ve task management konularında deneyim sahibiyim. 
+      Profesyonel işlerimin yanı sıra, <strong>pasif gelir sağlayan kişisel SaaS projeler</strong> geliştirerek 
+      uçtan uca web geliştirme deneyimi edindim.
       `,
     },
     experiences: {
@@ -487,14 +590,17 @@ export const CV_DATA = {
             {
               job: "Frontend Developer",
               jobDesc: `
-          Jotform'da Product ekibinde, ana platformlar üzerinde RDS altyapısını kullanarak yeni özellikler
-          geliştirdim ve mevcut işlevlerin iyileştirilmesine katkı sağladım. Ayrıca Growth ekibinde, global
-          kullanıcıları hedefleyen yerelleştirme ve performans optimizasyonuna yönelik açılış sayfalarının
-          geliştirilmesinde aktif rol aldım.
+              25 milyondan fazla kullanıcıya hizmet veren bir şirket olan Jotform'da, 
+              <strong>Product</strong> ekibinde çalıştım ve ekipler arasında paylaşılan bir 
+              <strong>monorepo</strong> mimarisi içinde 
+              <strong>No Code App Builder</strong>, <strong>Push Notification</strong>, 
+              <strong>Copilot</strong> ve <strong>User Management</strong> gibi projelerde 
+              aktif olarak görevler aldım.
+              <span class="block mt-2">Kullanıcı odaklı pixel perfect arayüzler geliştirdim. UI/UX iyileştirme, hata çözümü ve component mimarisi üzerinde çalıştım. </span>
           `,
               company: "Jotform",
               companyLink: "https://jotform.com/",
-              startDate: "08/2023",
+              startDate: "11/2022",
               endDate: "05/2025",
               technologies: [
                 "React",
@@ -511,24 +617,24 @@ export const CV_DATA = {
                 "Notion",
               ],
             },
-            {
-              job: "Frontend Developer (Part Time)",
-              jobDesc:
-                "Jotform ürünlerinde HTML, CSS, JavaScript ve React.js ile arayüz hatalarını gidererek kullanıcı deneyimini iyileştirmeye yönelik çalışmalar yaptım.",
-              company: "Jotform",
-              companyLink: "https://jotform.com/",
-              startDate: "11/2022",
-              endDate: "07/2023",
-              technologies: [
-                "React",
-                "HTML",
-                "CSS/SCSS",
-                "JavaScript",
-                "Git / GitHub",
-                "RDS",
-                "Axios",
-              ],
-            },
+            // {
+            //   job: "Frontend Developer (Part Time)",
+            //   jobDesc:
+            //     "Jotform ürünlerinde HTML, CSS, JavaScript ve React.js ile arayüz hatalarını gidererek kullanıcı deneyimini iyileştirmeye yönelik çalışmalar yaptım.",
+            //   company: "Jotform",
+            //   companyLink: "https://jotform.com/",
+            //   startDate: "11/2022",
+            //   endDate: "07/2023",
+            //   technologies: [
+            //     "React",
+            //     "HTML",
+            //     "CSS/SCSS",
+            //     "JavaScript",
+            //     "Git / GitHub",
+            //     "RDS",
+            //     "Axios",
+            //   ],
+            // },
             {
               job: "Stajyer Developer ",
               jobDesc:
@@ -550,7 +656,7 @@ export const CV_DATA = {
         {
           job: "Frontend Developer",
           jobDesc:
-            "WordPress tabanlı kurumsal web siteleri geliştirerek tema ve CSS özelleştirmeleri yaptım.",
+            "Kurumsal web sitelerinin geliştirilmesi, iyileştirilmesi, SEO optimizasyonları gibi görevler aldım.",
           company: "Gali Medya",
           companyLink: "https://www.galimedya.com/",
           startDate: "08/2021",
@@ -560,9 +666,9 @@ export const CV_DATA = {
         {
           job: "Freelance Full Stack Geliştirici",
           jobDesc: `
-          React.js, Next.js, Redux, Redux-Saga, TypeScript, JavaScript, HTML, CSS, PHP ve MySQL kullanarak 
-          birçok kurumsal web sitesi geliştirdim. Bu projelerde RESTful API entegrasyonları, UI/UX geliştirme, 
-          veritabanı yönetimi, proje planlama ve müşteri iletişimi konularında deneyimler edindim.
+          React.js, Next.js, Redux, Redux-Saga, TypeScript, JavaScript, HTML, CSS, PHP ve MySQL kullanarak birçok web sitesi geliştirdim. 
+          Bu projelerde RESTful API entegrasyonları, UI/UX geliştirme, veritabanı yönetimi, proje planlama ve müşteri iletişimi konularında 
+          deneyimler edindim.
           `,
           company: "Freelance Full Stack Developer",
           startDate: "Üniversite",
@@ -587,121 +693,205 @@ export const CV_DATA = {
         {
           title: "Kişisel Portfolyo",
           desc: "Tüm deneyimlerimi, projelerimi, çalışmalarımı, becerilerimi ve blog yazılarımı inceleyebilirsiniz.",
-          linkText: "yasinakbulut.dev",
-          linkUrl: "https://yasinakbulut.dev",
+          links: [
+            {
+              linkText: "yasinakbulut.dev",
+              linkUrl: "https://yasinakbulut.dev",
+            },
+          ],
         },
         {
-          title: "Diyet Takip Sistemi",
-          desc: "Diyetisyenlerin danışanlarını kolayca yönetebileceği, diyet yazabileceği ve grafik analiz yapabileceği sistem.",
-          linkText: "diyettakibim.com",
-          linkUrl: "https://diyettakibim.com",
-          technologies: ["Sertifika: ICONDATA'22", "Shopier"],
+          title: "Diyet Takibim",
+          desc: "Diyetisyenlere özel danışan yönetimi ve ölçüm takibi sunan SaaS platformu.",
+          links: [
+            {
+              linkText: "diyettakibim.com",
+              linkUrl: "https://diyettakibim.com",
+            },
+          ],
+          technologies: ["Sertifika: ICONDATA'22"],
+        },
+        {
+          title: "Wordora",
+          desc: "İngilizce kelime öğrenmeye yönelik modern ve hızlı bir PWA uygulaması.",
+          links: [
+            {
+              linkText: "wordora.yasinakbulut.dev",
+              linkUrl: "https://wordora.yasinakbulut.dev",
+            },
+          ],
         },
         {
           title: "CV Oluşturma Aracı",
           desc: "Şablon, renk, yazı tipi, dil ve tema gibi birçok özelleştirme seçeneği sunan CV oluşturma platformu.",
-          linkText: "cv.yasinakbulut.dev",
-          linkUrl: "https://cv.yasinakbulut.dev",
-        },
-        {
-          title: "Firma Rehberi",
-          desc: "140’tan fazla kategoride 250+ işletmenin yer aldığı, full stack olarak geliştirdiğim rehber sitesi.",
-          linkText: "esnafvitrinim.com",
-          linkUrl: "https://esnafvitrinim.com",
+          links: [
+            {
+              linkText: "cv.yasinakbulut.dev",
+              linkUrl: "https://cv.yasinakbulut.dev",
+            },
+          ],
         },
         {
           title: "Yazılımcı Topluluğu",
-          desc: "@kod_satirim, instagram sayfam için Full Stack olarak geliştirdiğim ve daha önce kullandığım blog sitesidir.",
-          linkText: "kodsatirim.yasinakbulut.dev",
-          linkUrl: "https://kodsatirim.yasinakbulut.dev",
+          desc: "Yazılım içeriklerinin paylaşıldığı, Full Stack olarak geliştirdiğim blog sitesidir.",
+          links: [
+            {
+              linkText: "kodsatirim.yasinakbulut.dev",
+              linkUrl: "https://kodsatirim.yasinakbulut.dev",
+            },
+          ],
+        },
+        {
+          title: "Firma Rehberi",
+          desc: "140+ kategori ve 250+ işletme içeren ve Full Stack olarak geliştirdiğim firma rehberi.",
+          links: [
+            {
+              linkText: "esnafvitrinim.com",
+              linkUrl: "https://esnafvitrinim.com",
+            },
+          ],
         },
         {
           title: "Danışmanlık Sitesi (Sanal Poslu)",
-          desc: "E-Ticaret, Sosyal Medya ve Dropshipping alanlarında paket hizmet sunan ve iyzico altyapısıyla ödeme alan site.",
-          linkText: "danismanlik.yasinakbulut.dev",
-          linkUrl: "https://danismanlik.yasinakbulut.dev",
+          desc: "E-Ticaret, Sosyal Medya ve Dropshipping gibi hizmet sunan ve iyzico altyapısıyla ödeme alan site.",
+          links: [
+            {
+              linkText: "danismanlik.yasinakbulut.dev",
+              linkUrl: "https://danismanlik.yasinakbulut.dev",
+            },
+          ],
         },
         {
-          title: "Diyetisyen Portfolyo Siteleri",
-          desc: "Online diyet hizmeti sunan diyetisyenler için özel tasarım ve yazılım geliştirdiğim siteler.",
-          linkText: "diyetisyengizemakbulut.com",
-          linkUrl: "https://diyetisyengizemakbulut.com/",
-          linkText2: "alminamesin.com",
-          linkUrl2: "https://alminamesin.com/",
+          title: "Portföy Siteleri",
+          desc: "",
+          links: [
+            {
+              title: "Beslenme Uzmanı:",
+              linkText: "diyetisyengizemakbulut.com",
+              linkUrl: "https://diyetisyengizemakbulut.com/",
+            },
+            {
+              title: "Beslenme Uzmanı:",
+              linkText: "alminamesin.com",
+              linkUrl: "https://alminamesin.com/",
+            },
+            {
+              title: "Doç. Doktor:",
+              linkText: "arzuyurci.com",
+              linkUrl: "https://arzuyurci.com/",
+            },
+          ],
         },
         {
-          title: "Tüp Bebek Uzmanı Portfolyo",
-          desc: "Tüp bebek alanında uzman bir doktor için hazırlanan kişisel tanıtım ve tıbbi içerik paylaşma sitesi.",
-          linkText: "arzuyurci.com",
-          linkUrl: "https://arzuyurci.com/",
+          title: "Hobi Olarak Yaptığım Çalışmalar",
+          desc: "",
+          fullWidth: true,
+          links: [
+            {
+              title: "Film ve Dizi Tanıtım Sitesi",
+              linkText: "",
+              linkUrl:
+                "https://yasinakbulut.dev/tr/works/film-ve-dizi-tanitim-uygulamasi-tmdb-api",
+            },
+            {
+              title: "Dinamik Kişisel Takvim",
+              linkText: "",
+              linkUrl:
+                "https://yasinakbulut.dev/tr/works/dinamik-kisisel-takvim",
+            },
+            {
+              title: "Çeviri Not Defteri",
+              linkText: "",
+              linkUrl: "https://yasinakbulut.dev/tr/works/ceviri-not-defteri",
+            },
+            {
+              title: "İngilizce Quiz",
+              linkText: "",
+              linkUrl:
+                "https://yasinakbulut.dev/tr/works/ingilizce-kelime-testi-uygulamasi",
+            },
+            {
+              title: "Restoran QR Menü",
+              linkText: "",
+              linkUrl:
+                "https://yasinakbulut.dev/tr/works/restoran-qr-menu-projesi",
+            },
+          ],
         },
+        // {
+        //   title: "Tüp Bebek Uzmanı Portfolyo",
+        //   desc: "Tüp bebek alanında uzman bir doktor için hazırlanan kişisel tanıtım ve tıbbi içerik paylaşma sitesi.",
+        //   linkText: "arzuyurci.com",
+        //   linkUrl: "https://arzuyurci.com/",
+        // },
       ],
     },
     skills: {
       title: "Yetenekler",
       data: [
         {
-          title: "Teknolojiler",
+          title: "Frontend",
           items: [
             "React.js",
             "Next.js",
-            "Redux",
-            "Saga",
-            "Context API",
             "JavaScript",
             "TypeScript",
             "jQuery",
             "HTML5",
             "CSS/SCSS",
-            "Styled Components",
             "TailwindCSS",
             "Bootstrap",
+            "Styled Components",
             "UI Libraries",
-            "PWA",
-            "Lighthouse",
             "React DevTools",
-            "Redux DevTools",
-            "PHP (PDO)",
+            "Lighthouse",
           ],
         },
         {
-          title: "API & Veritabanı",
+          title: "State Management",
+          items: ["Redux", "Redux Saga", "Zustand", "Context API"],
+        },
+        {
+          title: "Backend & API",
           items: [
-            "RESTful API",
+            "RESTful API Integration",
+            "Supabase",
             "Axios",
+            "JWT",
             "JSON",
             "Postman",
             "MySQL",
+            "PHP (PDO)",
             "PhpMyAdmin",
           ],
         },
         {
-          title: "Yayınlama ve Geliştirme",
+          title: "Build & Deployment",
           items: [
             "Git / GitHub",
-            "CI / CD",
             "GitHub Actions",
+            "CI / CD",
             "Unit Test",
-            "Microservices",
             "Monorepo",
+            "PWA",
+            "NPM",
             "RDS",
-            "ESLint",
             "cPanel",
             "Vercel",
-            "Netlify",
           ],
         },
         {
-          title: "Çalışma Biçimi",
+          title: "Soft Skills",
           items: [
             "Agile / Scrum Metodoloji",
             "Problem Çözme",
             "Takım Çalışması",
+            "Trello / Jira / Notion",
           ],
         },
         {
           title: "Mevcut Öğrenimlerim",
-          items: ["AngularJS", "Vue.js"],
+          items: ["Vue.js", "AngularJS"],
         },
       ],
     },
@@ -710,8 +900,7 @@ export const CV_DATA = {
       data: [
         {
           name: "Ayhan Dönmez",
-          title:
-            "Senior Infrastructure & Cloud System Engineer at Türkiye İş Bankası",
+          title: "System Architect at Türkiye İş Bankası",
           link: "https://www.linkedin.com/in/ayhandonmez/",
         },
         {
