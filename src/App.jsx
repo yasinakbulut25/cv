@@ -31,8 +31,8 @@ function App() {
         as={Link}
         href={`${
           lang === "tr"
-            ? "/Yasin_Akbulut_CV_TR.pdf"
-            : "/Yasin_Akbulut_CV_EN.pdf"
+            ? "/Yasin_Akbulut_TR.pdf"
+            : "/Yasin_Akbulut_EN.pdf"
         }`}
         isExternal
       >
