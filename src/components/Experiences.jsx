@@ -46,7 +46,7 @@ function Experiences({ lang }) {
       <Title text={experiences.title} />
       <div className="flex flex-col gap-4">
         {experiences.data.map((item, index) => {
-          const rightContent = `${item.startDate} - ${item.endDate}`;
+          const rightContent = `${item.startDate} ${item.endDate && `- ${item.endDate}`}`;
           if (item.hasMulti) {
             return multiJobs(item.jobs);
           }

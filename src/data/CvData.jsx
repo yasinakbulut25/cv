@@ -83,13 +83,38 @@ export const CV_DATA = {
         {
           job: "Frontend Developer",
           jobDesc: `
+          I lead the company’s frontend development efforts, building scalable applications with React, Next.js, and TypeScript 
+          while contributing to technical decisions, code reviews, REST API integrations, performance optimization, and user experience.
+          `,
+          company: "Movasoft",
+          companyLink: "https://www.movasoft.com/",
+          startDate: "04/2026",
+          endDate: "still",
+          technologies: [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Redux",
+            "Saga",
+            "HTML",
+            "CSS/SCSS",
+            "JavaScript",
+            "Styled Components",
+            "Figma for dev",
+            "Git / GitHub",
+            "Notion",
+          ],
+        },
+        {
+          job: "Frontend Developer",
+          jobDesc: `
           Actively involved in projects for global WPP brands, focusing on the development of responsive, UI/UX-driven, 
           and SEO-compliant web interfaces, localization workflows, and collaborative project coordination with cross-functional teams.
           `,
           company: "Hogarth",
           companyLink: "https://www.hogarth.com/",
           startDate: "07/2025",
-          endDate: "still",
+          endDate: "04/2026",
           technologies: [
             "React",
             "Redux",
@@ -189,16 +214,16 @@ export const CV_DATA = {
             "Figma for dev",
           ],
         }, */
-        {
-          job: "Frontend Developer",
-          jobDesc:
-            "I worked on developing and improving corporate websites and contributed to SEO optimization tasks.",
-          company: "Gali Medya",
-          companyLink: "https://www.galimedya.com/",
-          startDate: "08/2021",
-          endDate: "10/2021",
-          technologies: ["Wordpress", "HTML", "CSS", "JavaScript", "PHP"],
-        },
+        // {
+        //   job: "Frontend Developer",
+        //   jobDesc:
+        //     "I worked on developing and improving corporate websites and contributed to SEO optimization tasks.",
+        //   company: "Gali Medya",
+        //   companyLink: "https://www.galimedya.com/",
+        //   startDate: "08/2021",
+        //   endDate: "10/2021",
+        //   technologies: ["Wordpress", "HTML", "CSS", "JavaScript", "PHP"],
+        // },
         {
           job: "Freelance Full Stack Developer",
           jobDesc: `
@@ -207,8 +232,8 @@ export const CV_DATA = {
             UI/UX development, database management, project planning and client communication.
             `,
           company: "Freelance Full Stack Developer",
-          startDate: "Since university",
-          endDate: "Still",
+          startDate: "During university",
+          endDate: "",
           technologies: [
             "HTML",
             "CSS/SCSS",
@@ -269,16 +294,17 @@ export const CV_DATA = {
           ],
         },
         {
-          title: "CV Creation and Customization",
-          desc: "A CV creation platform that offers many customization options such as templates, colors, fonts, language, and theme.",
+          title: "Outflow: Mobile App",
+          desc: "A personal finance app for tracking income, expenses, recurring payments, savings, and analytics.",
           links: [
             {
-              linkText: "cv.yasinakbulut.dev",
-              linkUrl: "https://cv.yasinakbulut.dev",
+              linkText: "App Store",
+              linkUrl:
+                "https://apps.apple.com/tr/app/outflow-gelir-gider-takibi/id6780052479?l=tr",
             },
           ],
-          // technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
         },
+
         {
           title: "Software Developers Community",
           desc: "A full-stack blog platform I developed for sharing software-related content.",
@@ -294,36 +320,6 @@ export const CV_DATA = {
             "JavaScript",
             "PHP",
             "MySql",
-            "Bootstrap",
-          ], */
-        },
-        {
-          title: "Business Directory Site",
-          desc: "A full-stack business directory featuring 140+ categories and over 250 companies.",
-          links: [
-            {
-              linkText: "esnafvitrinim.com",
-              linkUrl: "https://esnafvitrinim.com",
-            },
-          ],
-          // technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
-        },
-        {
-          title: "Consulting Site With Virtual Pos",
-          desc: "A website offering E-commerce, Social Media, and Dropshipping services with iyzico payment support.",
-          links: [
-            {
-              linkText: "danismanlik.yasinakbulut.dev",
-              linkUrl: "https://danismanlik.yasinakbulut.dev",
-            },
-          ],
-          /* technologies: [
-            "Iyzico",
-            "PHP",
-            "MySql",
-            "HTML",
-            "CSS",
-            "JavaScript",
             "Bootstrap",
           ], */
         },
@@ -348,6 +344,47 @@ export const CV_DATA = {
             },
           ],
           // technologies: ["HTML", "PHP", "MySql", "CSS", "JavaScript"],
+        },
+        {
+          title: "Business Directory Site",
+          desc: "A full-stack business directory featuring 140+ categories and over 250 companies.",
+          links: [
+            {
+              linkText: "esnafvitrinim.com",
+              linkUrl: "https://esnafvitrinim.com",
+            },
+          ],
+          // technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
+        },
+        // {
+        //   title: "Consulting Site With Virtual Pos",
+        //   desc: "A website offering E-commerce, Social Media, and Dropshipping services with iyzico payment support.",
+        //   links: [
+        //     {
+        //       linkText: "danismanlik.yasinakbulut.dev",
+        //       linkUrl: "https://danismanlik.yasinakbulut.dev",
+        //     },
+        //   ],
+        //   /* technologies: [
+        //     "Iyzico",
+        //     "PHP",
+        //     "MySql",
+        //     "HTML",
+        //     "CSS",
+        //     "JavaScript",
+        //     "Bootstrap",
+        //   ], */
+        // },
+        {
+          title: "CV Creation and Customization",
+          desc: "A CV creation platform that offers many customization options such as templates, colors, fonts, language, and theme.",
+          links: [
+            {
+              linkText: "cv.yasinakbulut.dev",
+              linkUrl: "https://cv.yasinakbulut.dev",
+            },
+          ],
+          // technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySql"],
         },
         {
           title: "Projects I Build as a Hobby",
@@ -458,15 +495,16 @@ export const CV_DATA = {
           title: "Soft Skills",
           items: [
             "Agile / Scrum Methodology",
+            "Claude Code / Codex",
             "Problem Solving",
             "Team Working",
-            "Trello / Jira / Notion",
+            "Jira / Notion",
           ],
         },
-        {
-          title: "Currently Learning",
-          items: ["Vue.js", "AngularJS"],
-        },
+        // {
+        //   title: "Currently Learning",
+        //   items: ["Vue.js", "AngularJS"],
+        // },
       ],
     },
     references: {
@@ -478,14 +516,14 @@ export const CV_DATA = {
           link: "https://www.linkedin.com/in/ayhandonmez/",
         },
         {
-          name: "Onur Sencer",
-          title: "Director of Product at Jotform",
-          link: "https://www.linkedin.com/in/onur-sencer-917989a/",
-        },
-        {
           name: "Erdem Erol",
           title: "Team Lead / Senior Backend Developer at Jotform",
           link: "https://www.linkedin.com/in/virtuezza/",
+        },
+        {
+          name: "Onur Sencer",
+          title: "Director of Product at Jotform",
+          link: "https://www.linkedin.com/in/onur-sencer-917989a/",
         },
       ],
     },
@@ -565,13 +603,39 @@ export const CV_DATA = {
         {
           job: "Frontend Developer",
           jobDesc: `
-          Global WPP markalarına ait projelerde, responsive, UI/UX ve SEO odaklı web arayüzlerinin geliştirilmesi, lokalizasyonu 
-          ve ekiplerle koordineli proje yönetimi süreçlerinde aktif rol alıyorum.
+          Şirketin frontend geliştirme süreçlerinde ana sorumluluğu üstleniyorum. React, Next.js ve TypeScript ile 
+          ölçeklenebilir uygulamalar geliştiriyor; teknik kararlar, code review, REST API entegrasyonları, performans ve 
+          kullanıcı deneyimi süreçlerinde aktif rol alıyorum.
+          `,
+          company: "Movasoft",
+          companyLink: "https://www.movasoft.com/",
+          startDate: "04/2026",
+          endDate: "devam",
+          technologies: [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Redux",
+            "Saga",
+            "HTML",
+            "CSS/SCSS",
+            "JavaScript",
+            "Styled Components",
+            "Figma for dev",
+            "Git / GitHub",
+            "Notion",
+          ],
+        },
+        {
+          job: "Frontend Developer",
+          jobDesc: `
+          Global WPP markalarına ait projelerde, responsive, UI/UX ve SEO odaklı web arayüzlerinin geliştirilmesi, 
+          lokalizasyonu ve proje yönetimi süreçlerinde freelancer olarak aktif rol aldım.
           `,
           company: "Hogarth",
           companyLink: "https://www.hogarth.com/",
           startDate: "07/2025",
-          endDate: "devam",
+          endDate: "04/2026",
           technologies: [
             "React",
             "Redux",
@@ -653,16 +717,16 @@ export const CV_DATA = {
             },
           ],
         },
-        {
-          job: "Frontend Developer",
-          jobDesc:
-            "Kurumsal web sitelerinin geliştirilmesi, iyileştirilmesi, SEO optimizasyonları gibi görevler aldım.",
-          company: "Gali Medya",
-          companyLink: "https://www.galimedya.com/",
-          startDate: "08/2021",
-          endDate: "10/2021",
-          technologies: ["WordPress", "HTML", "CSS", "JavaScript", "PHP"],
-        },
+        // {
+        //   job: "Frontend Developer",
+        //   jobDesc:
+        //     "Kurumsal web sitelerinin geliştirilmesi, iyileştirilmesi, SEO optimizasyonları gibi görevler aldım.",
+        //   company: "Gali Medya",
+        //   companyLink: "https://www.galimedya.com/",
+        //   startDate: "08/2021",
+        //   endDate: "10/2021",
+        //   technologies: ["WordPress", "HTML", "CSS", "JavaScript", "PHP"],
+        // },
         {
           job: "Freelance Full Stack Geliştirici",
           jobDesc: `
@@ -672,7 +736,7 @@ export const CV_DATA = {
           `,
           company: "Freelance Full Stack Developer",
           startDate: "Üniversite",
-          endDate: "Devam",
+          endDate: "",
           technologies: [
             "HTML",
             "CSS/SCSS",
@@ -722,15 +786,17 @@ export const CV_DATA = {
           ],
         },
         {
-          title: "CV Oluşturma Aracı",
-          desc: "Şablon, renk, yazı tipi, dil ve tema gibi birçok özelleştirme seçeneği sunan CV oluşturma platformu.",
+          title: "Outflow: Mobil Uygulama",
+          desc: "Gelirler, peşin ve taksitli harcamalar, düzenli ödemeler, birikimler ve analiz takip içeren kişisel finans uygulaması.",
           links: [
             {
-              linkText: "cv.yasinakbulut.dev",
-              linkUrl: "https://cv.yasinakbulut.dev",
+              linkText: "App Store",
+              linkUrl:
+                "https://apps.apple.com/tr/app/outflow-gelir-gider-takibi/id6780052479?l=tr",
             },
           ],
         },
+
         {
           title: "Yazılımcı Topluluğu",
           desc: "Yazılım içeriklerinin paylaşıldığı, Full Stack olarak geliştirdiğim blog sitesidir.",
@@ -738,26 +804,6 @@ export const CV_DATA = {
             {
               linkText: "kodsatirim.yasinakbulut.dev",
               linkUrl: "https://kodsatirim.yasinakbulut.dev",
-            },
-          ],
-        },
-        {
-          title: "Firma Rehberi",
-          desc: "140+ kategori ve 250+ işletme içeren ve Full Stack olarak geliştirdiğim firma rehberi.",
-          links: [
-            {
-              linkText: "esnafvitrinim.com",
-              linkUrl: "https://esnafvitrinim.com",
-            },
-          ],
-        },
-        {
-          title: "Danışmanlık Sitesi (Sanal Poslu)",
-          desc: "E-Ticaret, Sosyal Medya ve Dropshipping gibi hizmet sunan ve iyzico altyapısıyla ödeme alan site.",
-          links: [
-            {
-              linkText: "danismanlik.yasinakbulut.dev",
-              linkUrl: "https://danismanlik.yasinakbulut.dev",
             },
           ],
         },
@@ -779,6 +825,36 @@ export const CV_DATA = {
               title: "Doç. Doktor:",
               linkText: "arzuyurci.com",
               linkUrl: "https://arzuyurci.com/",
+            },
+          ],
+        },
+        {
+          title: "Firma Rehberi",
+          desc: "140+ kategori ve 250+ işletme içeren ve Full Stack olarak geliştirdiğim firma rehberi.",
+          links: [
+            {
+              linkText: "esnafvitrinim.com",
+              linkUrl: "https://esnafvitrinim.com",
+            },
+          ],
+        },
+        // {
+        //   title: "Danışmanlık Sitesi (Sanal Poslu)",
+        //   desc: "E-Ticaret, Sosyal Medya ve Dropshipping gibi hizmet sunan ve iyzico altyapısıyla ödeme alan site.",
+        //   links: [
+        //     {
+        //       linkText: "danismanlik.yasinakbulut.dev",
+        //       linkUrl: "https://danismanlik.yasinakbulut.dev",
+        //     },
+        //   ],
+        // },
+        {
+          title: "CV Oluşturma Aracı",
+          desc: "Şablon, renk, yazı tipi, dil ve tema gibi birçok özelleştirme seçeneği sunan CV oluşturma platformu.",
+          links: [
+            {
+              linkText: "cv.yasinakbulut.dev",
+              linkUrl: "https://cv.yasinakbulut.dev",
             },
           ],
         },
@@ -884,15 +960,16 @@ export const CV_DATA = {
           title: "Soft Skills",
           items: [
             "Agile / Scrum Metodoloji",
+            "Claude Code / Codex",
             "Problem Çözme",
             "Takım Çalışması",
-            "Trello / Jira / Notion",
+            "Jira / Notion",
           ],
         },
-        {
-          title: "Mevcut Öğrenimlerim",
-          items: ["Vue.js", "AngularJS"],
-        },
+        // {
+        //   title: "Mevcut Öğrenimlerim",
+        //   items: ["Vue.js", "AngularJS"],
+        // },
       ],
     },
     references: {
@@ -904,14 +981,14 @@ export const CV_DATA = {
           link: "https://www.linkedin.com/in/ayhandonmez/",
         },
         {
-          name: "Onur Sencer",
-          title: "Director of Product at Jotform",
-          link: "https://www.linkedin.com/in/onur-sencer-917989a/",
-        },
-        {
           name: "Erdem Erol",
           title: "Team Lead / Senior Backend Developer at Jotform",
           link: "https://www.linkedin.com/in/virtuezza/",
+        },
+        {
+          name: "Onur Sencer",
+          title: "Director of Product at Jotform",
+          link: "https://www.linkedin.com/in/onur-sencer-917989a/",
         },
       ],
     },
