@@ -2,8 +2,6 @@
 import { CV_DATA } from "../data/CvData";
 import Section from "./Section";
 import Title from "./Title";
-import FlexTitle from "./FlexTitle";
-import Text from "./Text";
 
 function Educations({ lang }) {
   const { educations } = CV_DATA[lang];
@@ -11,16 +9,21 @@ function Educations({ lang }) {
   return (
     <Section>
       <Title text={educations.title} />
-      <div className="flex flex-col gap-4">
-        {educations.data.map((item, index) => {
-          const rightContent = `${item.startDate} - ${item.endDate}`;
-          return (
-            <div key={index} className="flex flex-col gap-2">
-              <FlexTitle text={item.title} rightText={rightContent} />
-              <Text text={item.desc} size="sm" />
-            </div>
-          );
-        })}
+      <div className="flex flex-col gap-3">
+        {educations.data.map((item, index) => (
+          <div key={index}>
+            <p
+              className="text-base print:text-[13px]"
+              style={{ color: "#1f2937", fontWeight: "300" }}
+            >
+              {item.title}
+              {item.desc ? ` - ${item.desc}` : ""}
+            </p>
+            <p className="text-xs tabular-nums text-gray-500 print:text-gray-700">
+              {item.startDate} - {item.endDate}
+            </p>
+          </div>
+        ))}
       </div>
     </Section>
   );
