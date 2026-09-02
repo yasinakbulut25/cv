@@ -14,7 +14,7 @@ function Languages({ lang }) {
           <p
             key={index}
             className="text-base print:text-[13px]"
-            style={{ color: "#1f2937", fontWeight: "300" }}
+            style={{ color: "#1f2937", fontWeight: "400" }}
           >
             {item.name} - {item.level}
           </p>

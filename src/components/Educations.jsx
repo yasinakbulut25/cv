@@ -14,7 +14,7 @@ function Educations({ lang }) {
           <div key={index}>
             <p
               className="text-base print:text-[13px]"
-              style={{ color: "#1f2937", fontWeight: "300" }}
+              style={{ color: "#1f2937", fontWeight: "400" }}
             >
               {item.title}
               {item.desc ? ` - ${item.desc}` : ""}

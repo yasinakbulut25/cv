@@ -16,7 +16,7 @@ function Skills({ lang }) {
             <p
               key={index}
               className="text-sm text-pretty print:text-[12px]"
-              style={{ color: "#1f2937", fontWeight: "300" }}
+              style={{ color: "#1f2937", fontWeight: "400" }}
             >
               <span className="font-bold">{title}: </span>
               {items}

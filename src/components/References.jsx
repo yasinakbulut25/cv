@@ -11,7 +11,7 @@ function References({ lang }) {
       <Title text={references.title} />
       <p
         className="text-base print:text-[13px]"
-        style={{ color: "#1f2937", fontWeight: "300" }}
+        style={{ color: "#1f2937", fontWeight: "400" }}
       >
         {references.text}
       </p>
